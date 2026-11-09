@@ -1,0 +1,31 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/Features/Menu/HamburguerMenu.css"
+/>
+<script src="<?php echo $base_url; ?>/Features/Menu/jquery-3.6.0.min.js"></script>
+<ul class="hamburger">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleBox = document.getElementById("OpenMenu");
+
+    toggleBox.addEventListener("click", (e) => {
+      // Busca el elemento .hamburger dentro del contenedor
+      const hamburger = toggleBox.querySelector(".hamburger");
+
+      if (hamburger) {
+        hamburger.classList.toggle("active");
+
+        // Opcional: Dispara eventos personalizados si es necesario
+        const event = new Event("hamburger-toggle", { bubbles: true });
+        hamburger.dispatchEvent(event);
+      }
+    });
+  });
+</script>

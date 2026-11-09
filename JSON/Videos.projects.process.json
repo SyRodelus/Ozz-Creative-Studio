@@ -1,0 +1,72 @@
+{
+  "xero_process": {
+    "src": "../pages/Work/Xero Minded/Xero_Minded_Process.mp4",
+    "mobileSrc": "../pages/Work/Xero Minded/Xero_Minded_Process_Mobile.mp4",
+    "title": "Xero Minded — Logo Animation",
+    "description": "Logo animation for Xero Minded. A motion graphics brand identity exercise.",
+    "keywords": [
+      "logo animation",
+      "motion graphics",
+      "brand identity",
+      "Xero Minded"
+    ],
+    "duration": "PT0M18S"
+  },
+  "drift_process": {
+    "src": "../pages/Work/Drift Royalty/Drift_Royalty_Process.mp4",
+    "mobileSrc": "../pages/Work/Drift Royalty/Drift_Royalty_Process_Mobile.mp4",
+    "title": "Drift Royalty — Brand Identity",
+    "description": "Full creative direction and visual identity for Drift Royalty, fusing automotive-inspired sophistication with urban street culture.",
+    "keywords": [
+      "brand identity",
+      "creative direction",
+      "visual assets",
+      "style guide",
+      "luxury streetwear"
+    ],
+    "duration": "PT0M18S"
+  },
+  "lylo_process": {
+    "src": "../pages/Work/Lylo Mousse/Lylo_Mousse_Process.mp4",
+    "mobileSrc": "../pages/Work/Lylo Mousse/Lylo_Mousse_Process_Mobile.mp4",
+    "title": "Lylo Mousse — Brand Identity",
+    "description": "Comprehensive visual identity and brand positioning for Lylo Mousse bakery, creating a distinctive and playful brand in the dessert market.",
+    "keywords": [
+      "brand identity",
+      "packaging design",
+      "logo design",
+      "bakery branding",
+      "visual identity"
+    ],
+    "duration": "PT0M22S"
+  },
+  "casa_reels": {
+    "src": "../pages/Work/La Casa Roja/La_Casa_Roja_Reels.mp4",
+    "mobileSrc": "../pages/Work/La Casa Roja/La_Casa_Roja_Reel.mp4",
+    "title": "La Casa Roja — Brand Identity",
+    "description": "Complete brand system for La Casa Roja hostel: logo, visual identity, communication strategy, and brand manual for consistent digital presence.",
+    "keywords": [
+      "brand identity",
+      "visual system",
+      "communication strategy",
+      "hostel branding",
+      "brand manual"
+    ],
+    "duration": "PT0M22S"
+  },
+  "pileta_reels": {
+    "src": "../pages/Work/La Pileta/La_Pileta_Reels.mp4",
+    "mobileSrc": "../pages/Work/La Pileta/La_Pileta_Reel.mp4",
+    "title": "La Pileta — Complete Visual Identity",
+    "description": "Comprehensive system for La Pileta: visual identity, content strategy, social media management, and sensual sophisticated branding.",
+    "keywords": [
+      "brand identity",
+      "visual system",
+      "content strategy",
+      "social media management",
+      "sensual branding",
+      "sauna branding"
+    ],
+    "duration": "PT0M22S"
+  }
+}

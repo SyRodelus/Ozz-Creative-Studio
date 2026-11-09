@@ -1,0 +1,44 @@
+{
+    "hero": {
+        "brand": {
+            "es": "Ozz Estudio Creativo",
+            "en": "Ozz Creative Studio"
+        },
+        "title": {
+            "es": "Construimos marcas",
+            "en": "We build brands"
+        },
+        "subtitle": {
+            "es": "imposibles de ignorar.",
+            "en": "impossible to ignore."
+        },
+        "description": {
+            "es": "Somos un estudio creativo especializado en estrategia, estética y ejecución, que impulsa la evolución de las marcas.",
+            "en": "We are a creative studio specializing in strategy, aesthetics, and execution that drive brand evolution."
+        },
+        "button": {
+            "es": "Agende una asesoría",
+            "en": "Book a strategy call"
+        },
+        "buttonAria": {
+            "es": "Agende una asesoría para su proyecto",
+            "en": "Book a strategy call for your project"
+        },
+        "imageSrc": {
+            "es": "pages/index/img/ozz-estudio-creativo-experiencias-digitales-autenticas.webp",
+            "en": "pages/index/img/ozz-creative-studio-authentic-digital-experiences.webp"
+        },
+        "imageAlt": {
+            "es": "Ozz Estudio Creativo desarrollando marcas, identidad visual y experiencias digitales",
+            "en": "Ozz Creative Studio developing brands, visual identity and digital experiences"
+        },
+        "imageTitle": {
+            "es": "Ozz Estudio Creativo",
+            "en": "Ozz Creative Studio"
+        },
+        "buttonHref": {
+            "es": "Contact-es.php",
+            "en": "Contact.php"
+        }
+    }
+}

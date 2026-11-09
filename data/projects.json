@@ -1,0 +1,498 @@
+{
+    "xero": {
+        "href": {
+            "es": "Work/Xero_Minded-es.php",
+            "en": "Work/Xero_Minded.php"
+        },
+        "title": {
+            "es": "Xero Minded",
+            "en": "Xero Minded"
+        },
+        "description": {
+            "es": "Desarrollamos una identidad visual audaz y cohesionada para Xero Minded, reconocido streamer de videojuegos, a la altura de su estilo de juego y de su personalidad.",
+            "en": "We developed a bold and cohesive visual identity for Xero Minded, a renowned gaming streamer, true to his playing style and personality."
+        },
+        "discipline": {
+            "es": "Identidad visual",
+            "en": "Visual identity"
+        },
+        "sector": {
+            "es": "Streamer · Videojuegos",
+            "en": "Streamer · Gaming"
+        },
+        "year": "2024",
+        "poster": {
+            "alt": {
+                "es": "Logotipo de Xero Minded sobre textura de piedra",
+                "en": "Xero Minded logo over a stone texture"
+            },
+            "sources": [
+                {
+                    "src": "pages/Work/Xero Minded/Mobile/1-mobile.webp",
+                    "w": 1280,
+                    "h": 720
+                },
+                {
+                    "src": "pages/Work/Xero Minded/Pc/1.webp",
+                    "w": 1921,
+                    "h": 1081
+                }
+            ]
+        },
+        "video": {
+            "sources": [
+                {
+                    "src": "pages/Work/Xero Minded/Xero Minded Logo Animation Mobile.mp4",
+                    "w": 853,
+                    "h": 480
+                },
+                {
+                    "src": "pages/Work/Xero Minded/Xero Minded Logo Animation.mp4",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ],
+            "title": "Xero Minded — Brand Identity",
+            "description": "Logo animation and brand identity for gaming streamer Xero Minded.",
+            "keywords": [
+                "branding",
+                "gaming",
+                "visual identity",
+                "logo animation"
+            ]
+        },
+        "pageDir": "pages/Work/Xero Minded",
+        "meta": {
+            "title": {
+                "es": "Ozz — Xero Minded",
+                "en": "Ozz — Xero Minded"
+            },
+            "description": {
+                "es": "Identidad visual estratégica para el streamer Xero Minded. Ozz Estudio Creativo desarrolló una marca audaz, coherente y de alto impacto para el entorno digital.",
+                "en": "Visual identity and branding for gaming streamer Xero Minded. Ozz Creative Studio crafted a bold, strategic and high-impact brand built to stand out on digital platforms."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Work/Xero_Minded-es",
+                "en": "https://ozzcreativestudio.com/Work/Xero_Minded"
+            },
+            "ogTitle": {
+                "es": "Xero Minded — Ozz Estudio Creativo",
+                "en": "Xero Minded — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Identidad visual estratégica para el streamer Xero Minded. Ozz Estudio Creativo desarrolló una marca audaz, coherente y de alto impacto para el entorno digital.",
+                "en": "Visual identity and branding for gaming streamer Xero Minded. Ozz Creative Studio crafted a bold, strategic and high-impact brand built to stand out on digital platforms."
+            }
+        }
+    },
+    "drift": {
+        "href": {
+            "es": "Work/Drift_Royalty-es.php",
+            "en": "Work/Drift_Royalty.php"
+        },
+        "title": {
+            "es": "Drift Royalty",
+            "en": "Drift Royalty"
+        },
+        "description": {
+            "es": "Línea de moda premium que integra el diseño automotriz de lujo con la cultura del streetwear.",
+            "en": "A premium fashion line that blends luxury automotive design with streetwear culture."
+        },
+        "discipline": {
+            "es": "Branding de moda",
+            "en": "Fashion branding"
+        },
+        "sector": {
+            "es": "Streetwear · Motor",
+            "en": "Streetwear · Motor"
+        },
+        "year": "2024",
+        "poster": {
+            "alt": {
+                "es": "Campaña Art of Drift de Drift Royalty",
+                "en": "Drift Royalty Art of Drift campaign"
+            },
+            "sources": [
+                {
+                    "src": "pages/Work/Drift Royalty/Mobile/5-mobile.webp",
+                    "w": 1280,
+                    "h": 720
+                }
+            ]
+        },
+        "video": {
+            "sources": [
+                {
+                    "src": "pages/Work/Drift Royalty/Drift Royalty Mobile.mp4",
+                    "w": 853,
+                    "h": 480
+                },
+                {
+                    "src": "pages/Work/Drift Royalty/Drift Royalty.mp4",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ],
+            "title": "Drift Royalty — Brand Teaser",
+            "description": "Audiovisual teaser for Drift Royalty focused on rhythm and urban luxury.",
+            "keywords": [
+                "teaser",
+                "brand film",
+                "Drift Royalty"
+            ]
+        },
+        "pageDir": "pages/Work/Drift Royalty",
+        "meta": {
+            "title": {
+                "es": "Ozz — Drift Royalty",
+                "en": "Ozz — Drift Royalty"
+            },
+            "description": {
+                "es": "Línea de moda premium Drift Royalty. Ozz Estudio Creativo creó una identidad visual de lujo que fusiona el diseño automotriz con el streetwear exclusivo.",
+                "en": "Premium fashion line Drift Royalty. Ozz Creative Studio crafted a luxury visual identity that blends automotive design with exclusive streetwear culture."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Work/Drift_Royalty-es",
+                "en": "https://ozzcreativestudio.com/Work/Drift_Royalty"
+            },
+            "ogTitle": {
+                "es": "Drift Royalty — Ozz Estudio Creativo",
+                "en": "Drift Royalty — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Línea de moda premium Drift Royalty. Ozz Estudio Creativo creó una identidad visual de lujo que fusiona el diseño automotriz con el streetwear exclusivo.",
+                "en": "Premium fashion line Drift Royalty. Ozz Creative Studio crafted a luxury visual identity that blends automotive design with exclusive streetwear culture."
+            }
+        }
+    },
+    "mango": {
+        "href": {
+            "es": "Work/Mango-es.php",
+            "en": "Work/Mango.php"
+        },
+        "title": {
+            "es": "Mango",
+            "en": "Mango"
+        },
+        "description": {
+            "es": "Ejecutamos una estrategia BTL y digital con activaciones de alto impacto, campañas en redes sociales y piezas coherentes que fortalecieron la interacción y la consistencia de la marca.",
+            "en": "We executed a BTL and digital strategy with high-impact activations, social media campaigns and coherent assets that strengthened engagement and brand consistency."
+        },
+        "discipline": {
+            "es": "Campaña BTL y digital",
+            "en": "BTL & digital campaign"
+        },
+        "sector": {
+            "es": "Moda · Retail",
+            "en": "Fashion · Retail"
+        },
+        "year": "2023",
+        "poster": {
+            "alt": {
+                "es": "Pieza de campaña de Mango",
+                "en": "Mango campaign piece"
+            },
+            "sources": [
+                {
+                    "src": "pages/Work/Mango/Mobile/1-mobile.webp",
+                    "w": 1616,
+                    "h": 1264
+                }
+            ]
+        },
+        "video": {
+            "sources": [
+                {
+                    "src": "pages/Work/Mango/Mango Mobile.mp4",
+                    "w": 853,
+                    "h": 480
+                },
+                {
+                    "src": "pages/Work/Mango/Mango.mp4",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ],
+            "title": "MANGO — Identity Spot",
+            "description": "Short identity piece for MANGO with typographic accents.",
+            "keywords": [
+                "fashion",
+                "campaign",
+                "MANGO"
+            ]
+        },
+        "pageDir": "pages/Work/Mango",
+        "meta": {
+            "title": {
+                "es": "Ozz — Mango",
+                "en": "Ozz — Mango"
+            },
+            "description": {
+                "es": "Estrategia digital y activaciones BTL para Mango. Ozz Estudio Creativo fortaleció la consistencia de la marca y la interacción con su audiencia mediante campañas de alto impacto.",
+                "en": "Digital strategy and BTL activations for Mango. Ozz Creative Studio strengthened brand consistency and audience engagement through high-impact campaigns."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Work/Mango-es",
+                "en": "https://ozzcreativestudio.com/Work/Mango"
+            },
+            "ogTitle": {
+                "es": "Mango — Ozz Estudio Creativo",
+                "en": "Mango — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Estrategia digital y activaciones BTL para Mango. Ozz Estudio Creativo fortaleció la consistencia de la marca y la interacción con su audiencia mediante campañas de alto impacto.",
+                "en": "Digital strategy and BTL activations for Mango. Ozz Creative Studio strengthened brand consistency and audience engagement through high-impact campaigns."
+            }
+        }
+    },
+    "casa": {
+        "href": {
+            "es": "Work/La_Casa_Roja-es.php",
+            "en": "Work/La_Casa_Roja.php"
+        },
+        "title": {
+            "es": "La Casa Roja",
+            "en": "La Casa Roja"
+        },
+        "description": {
+            "es": "Reconstruimos la identidad de La Casa Roja para dotarla de claridad, solidez y una presencia digital profesional.",
+            "en": "We rebuilt La Casa Roja's identity to give it clarity, strength and a professional digital presence."
+        },
+        "discipline": {
+            "es": "Rebranding",
+            "en": "Rebranding"
+        },
+        "sector": {
+            "es": "Hostal · Hospitalidad",
+            "en": "Hostel · Hospitality"
+        },
+        "year": "2025",
+        "poster": {
+            "alt": {
+                "es": "Fachada ilustrada y logotipo de La Casa Roja",
+                "en": "La Casa Roja illustrated facade and logo"
+            },
+            "sources": [
+                {
+                    "src": "pages/Work/La Casa Roja/Mobile/1-mobile.webp",
+                    "w": 1280,
+                    "h": 720
+                },
+                {
+                    "src": "pages/Work/La Casa Roja/Pc/1.webp",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ]
+        },
+        "video": {
+            "sources": [
+                {
+                    "src": "pages/Work/La Casa Roja/La_Casa_Roja_Mobile.mp4",
+                    "w": 1280,
+                    "h": 720
+                },
+                {
+                    "src": "pages/Work/La Casa Roja/La_Casa_Roja.mp4",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ],
+            "title": "La Casa Roja — Brand Identity",
+            "description": "Complete brand system for La Casa Roja hostel.",
+            "keywords": [
+                "branding",
+                "hostel",
+                "identity"
+            ]
+        },
+        "pageDir": "pages/Work/La Casa Roja",
+        "meta": {
+            "title": {
+                "es": "Ozz — La Casa Roja",
+                "en": "Ozz — La Casa Roja"
+            },
+            "description": {
+                "es": "Proyecto de identidad visual y branding para La Casa Roja, un hostal en Santiago. Ozz Estudio Creativo desarrolló una marca coherente, estratégica y preparada para crecer.",
+                "en": "Branding and visual identity project for La Casa Roja, a hostel in Santiago. Ozz Creative Studio developed a cohesive brand system ready to grow and scale."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Work/La_Casa_Roja-es",
+                "en": "https://ozzcreativestudio.com/Work/La_Casa_Roja"
+            },
+            "ogTitle": {
+                "es": "La Casa Roja — Ozz Estudio Creativo",
+                "en": "La Casa Roja — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Proyecto de identidad visual y branding para La Casa Roja, un hostal en Santiago. Ozz Estudio Creativo desarrolló una marca coherente, estratégica y preparada para crecer.",
+                "en": "Branding and visual identity project for La Casa Roja, a hostel in Santiago. Ozz Creative Studio developed a cohesive brand system ready to grow and scale."
+            }
+        }
+    },
+    "lylo": {
+        "href": {
+            "es": "Work/Lylo_Mousse-es.php",
+            "en": "Work/Lylo_Mousse.php"
+        },
+        "title": {
+            "es": "Lylo Mousse",
+            "en": "Lylo Mousse"
+        },
+        "description": {
+            "es": "Identidad y sitio web para una marca de repostería que ofrece alternativas más saludables con un carácter cercano y lúdico.",
+            "en": "Identity and website for a pastry brand offering healthier alternatives with a warm, playful character."
+        },
+        "discipline": {
+            "es": "Branding · Diseño web",
+            "en": "Branding · Web design"
+        },
+        "sector": {
+            "es": "Repostería · Alimentos",
+            "en": "Pastry · Food"
+        },
+        "year": "2025",
+        "poster": {
+            "alt": {
+                "es": "Logotipo de Lylo Mousse",
+                "en": "Lylo Mousse logo"
+            },
+            "sources": [
+                {
+                    "src": "pages/Work/Lylo Mousse/Pc/1.webp",
+                    "w": 1921,
+                    "h": 1080
+                }
+            ]
+        },
+        "video": {
+            "sources": [
+                {
+                    "src": "pages/Work/Lylo Mousse/Lylo Mousse Mobile.mp4",
+                    "w": 853,
+                    "h": 480
+                },
+                {
+                    "src": "pages/Work/Lylo Mousse/Lylo Mousse.mp4",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ],
+            "title": "Lylo Mousse — Brand Identity",
+            "description": "Logo animation for Lylo Mousse, a playful pastry brand focused on healthier alternatives.",
+            "keywords": [
+                "bakery",
+                "branding",
+                "web design"
+            ]
+        },
+        "pageDir": "pages/Work/Lylo Mousse",
+        "meta": {
+            "title": {
+                "es": "Ozz — Lylo Mousse",
+                "en": "Ozz — Lylo Mousse"
+            },
+            "description": {
+                "es": "Identidad de marca y diseño de empaques para Lylo Mousse. Ozz Estudio Creativo desarrolló una estética lúdica, sofisticada y memorable para una repostería con gran potencial visual.",
+                "en": "Brand identity and packaging design for Lylo Mousse, a U.S. bakery. Ozz Creative Studio created a playful yet refined visual system with strong market impact."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Work/Lylo_Mousse-es",
+                "en": "https://ozzcreativestudio.com/Work/Lylo_Mousse"
+            },
+            "ogTitle": {
+                "es": "Lylo Mousse — Ozz Estudio Creativo",
+                "en": "Lylo Mousse — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Identidad de marca y diseño de empaques para Lylo Mousse. Ozz Estudio Creativo desarrolló una estética lúdica, sofisticada y memorable para una repostería con gran potencial visual.",
+                "en": "Brand identity and packaging design for Lylo Mousse, a U.S. bakery. Ozz Creative Studio created a playful yet refined visual system with strong market impact."
+            }
+        }
+    },
+    "pileta": {
+        "href": {
+            "es": "Work/La_Pileta-es.php",
+            "en": "Work/La_Pileta.php"
+        },
+        "title": {
+            "es": "La Pileta",
+            "en": "La Pileta"
+        },
+        "description": {
+            "es": "Identidad visual integral y estrategia digital para un spa que combina bienestar, privacidad y una experiencia sensorial contemporánea.",
+            "en": "Comprehensive visual identity and digital strategy for a spa that combines wellness, privacy and a contemporary sensory experience."
+        },
+        "discipline": {
+            "es": "Branding · Estrategia digital",
+            "en": "Branding · Digital strategy"
+        },
+        "sector": {
+            "es": "Bienestar · Spa",
+            "en": "Wellness · Spa"
+        },
+        "year": "2025",
+        "poster": {
+            "alt": {
+                "es": "Logotipo de La Pileta",
+                "en": "La Pileta logo"
+            },
+            "sources": [
+                {
+                    "src": "pages/Work/La Pileta/Mobile/1-mobile.webp",
+                    "w": 1280,
+                    "h": 720
+                },
+                {
+                    "src": "pages/Work/La Pileta/Pc/1.webp",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ]
+        },
+        "video": {
+            "sources": [
+                {
+                    "src": "pages/Work/La Pileta/La Pileta Mobile.mp4",
+                    "w": 1280,
+                    "h": 720
+                },
+                {
+                    "src": "pages/Work/La Pileta/La Pileta.mp4",
+                    "w": 1920,
+                    "h": 1080
+                }
+            ],
+            "title": "La Pileta — Brand Identity",
+            "description": "Complete visual identity for La Pileta, a spa focused on wellness and a modern sensory experience.",
+            "keywords": [
+                "spa",
+                "branding",
+                "wellness"
+            ]
+        },
+        "pageDir": "pages/Work/La Pileta",
+        "meta": {
+            "title": {
+                "es": "Ozz — La Pileta",
+                "en": "Ozz — La Pileta"
+            },
+            "description": {
+                "es": "Identidad visual, branding y estrategia digital para La Pileta, un sauna en Santiago. Ozz Estudio Creativo desarrolló una marca sólida que equilibra bienestar, sensualidad y sofisticación.",
+                "en": "Brand identity, visual system and digital strategy for La Pileta, a contemporary sauna in Santiago. Ozz Creative Studio developed a bold brand balancing sensuality, wellness and sophistication."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Work/La_Pileta-es",
+                "en": "https://ozzcreativestudio.com/Work/La_Pileta"
+            },
+            "ogTitle": {
+                "es": "La Pileta — Ozz Estudio Creativo",
+                "en": "La Pileta — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Identidad visual, branding y estrategia digital para La Pileta, un sauna en Santiago. Ozz Estudio Creativo desarrolló una marca sólida que equilibra bienestar, sensualidad y sofisticación.",
+                "en": "Brand identity, visual system and digital strategy for La Pileta, a contemporary sauna in Santiago. Ozz Creative Studio developed a bold brand balancing sensuality, wellness and sophistication."
+            }
+        }
+    }
+}

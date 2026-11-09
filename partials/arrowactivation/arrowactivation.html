@@ -1,0 +1,58 @@
+<svg class="arrow-icon" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <path class="path-1" d="M15 25L25 15M25 15H15M25 15V25" />
+  <path class="path-2" d="M15 25L25 15M25 15H15M25 15V25" />
+</svg>
+<?php
+// Estilos y script una sola vez por página (este parcial se incluye
+// varias veces dentro del menú; antes el script se repetía y cada
+// flecha acumulaba listeners duplicados).
+if (empty($GLOBALS['__ozz_arrow_assets'])):
+    $GLOBALS['__ozz_arrow_assets'] = true;
+?>
+<style>
+  .arrow-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    stroke: var(--color-text);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    flex-shrink: 0;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (!window.gsap) return;
+
+    if (window.CustomEase) CustomEase.create("custom-ease", "0.87,0,0.13,1");
+
+    const animation = {
+      duration: 0.7,
+      ease: window.CustomEase ? "custom-ease" : "power3.inOut",
+    };
+
+    document.querySelectorAll(".arrow-icon").forEach((svg) => {
+      const trigger = svg.closest(".arrow-activation");
+      if (!trigger || trigger.dataset.arrowBound) return;
+      trigger.dataset.arrowBound = "true";
+
+      const path1 = svg.querySelector(".path-1");
+      const path2 = svg.querySelector(".path-2");
+
+      gsap.set(path2, { opacity: 0, x: -30, y: 30 });
+
+      trigger.addEventListener("mouseenter", () => {
+        gsap.to(path1, { x: 30, y: -30, opacity: 0, ...animation });
+        gsap.to(path2, { x: 0, y: 0, opacity: 1, ...animation });
+      });
+
+      trigger.addEventListener("mouseleave", () => {
+        gsap.to(path1, { x: 0, y: 0, opacity: 1, ...animation });
+        gsap.to(path2, { x: -30, y: 30, opacity: 0, ...animation });
+      });
+    });
+  });
+</script>
+<?php endif; ?>

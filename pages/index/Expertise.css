@@ -1,0 +1,256 @@
+/* =========================================================
+   ESPECIALIDADES — pósters tipográficos
+   Hover: barrido de relleno desde abajo (mismo lenguaje que
+   los CTA del sitio) con inversión de colores.
+========================================================= */
+
+.exp {
+  position: relative;
+  z-index: 2;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding-bottom: clamp(56px, 9vw, 140px);
+}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--ozz-gutter);
+  padding: 0 var(--ozz-pad);
+}
+
+@media (min-width: 760px) {
+  .exp-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Escalonado de la entrada (reveal.js) */
+.exp-card .reveal-block {
+  transition-delay: calc(var(--i, 0) * 110ms);
+}
+
+.exp-inner {
+  height: 100%;
+}
+
+/* ---------- Tarjeta ---------- */
+
+.exp-link {
+  --exp-fg: var(--color-text);
+  --exp-bg: var(--color-bg);
+  --exp-pad: clamp(14px, 4.2cqi, 24px);
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: clamp(1.25rem, 9cqi, 3rem);
+  min-height: clamp(380px, 118vw, 560px);
+  padding: var(--exp-pad);
+  overflow: hidden;
+  isolation: isolate;
+  container-type: inline-size;
+  color: var(--exp-fg);
+  text-decoration: none;
+  border: 1px solid var(--ozz-line);
+  background-color: var(--exp-bg);
+  /* retícula sutil de póster */
+  background-image:
+    linear-gradient(var(--ozz-line-soft) 1px, transparent 1px),
+    linear-gradient(90deg, var(--ozz-line-soft) 1px, transparent 1px);
+  background-size: 25% 20%;
+  background-position: -1px -1px;
+  transition: color 0.5s var(--ozz-ease);
+}
+
+@media (min-width: 760px) {
+  .exp-link {
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+  }
+}
+
+/* Relleno del hover */
+.exp-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--color-text);
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  transition: transform 0.65s var(--ozz-ease);
+}
+
+.exp-link:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: -4px;
+}
+
+/* Número gigante en contorno */
+.exp-index {
+  position: absolute;
+  z-index: -1;
+  right: -0.04em;
+  top: 50%;
+  transform: translateY(-58%);
+  font-family: var(--font-display);
+  font-size: 78cqi;
+  line-height: 0.8;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--ozz-line);
+  pointer-events: none;
+  transition:
+    -webkit-text-stroke-color 0.5s ease,
+    transform 0.9s var(--ozz-ease);
+}
+
+/* Barra superior */
+.exp-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: clamp(0.85rem, 4cqi, 1.1rem);
+}
+
+/* Lista de entregables */
+.exp-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  font-size: clamp(0.9rem, 4.6cqi, 1.2rem);
+}
+
+.exp-list li::before {
+  content: "— ";
+  color: var(--color-orange);
+}
+
+/* Pie */
+.exp-foot {
+  margin-top: auto; /* pie siempre abajo, lista siempre arriba */
+  display: flex;
+  flex-direction: column;
+  gap: clamp(12px, 4cqi, 20px);
+}
+
+.exp-desc {
+  margin: 0;
+  max-width: 36ch;
+  font-family: var(--font-paragraph-light);
+  font-size: clamp(0.92rem, 4.2cqi, 1.08rem);
+  line-height: 1.42;
+}
+
+.exp-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-top: clamp(10px, 3cqi, 16px);
+  border-top: 1px solid currentColor;
+}
+
+.exp-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 15.5cqi, 6.5rem);
+  font-weight: 400;
+  line-height: 0.86;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.exp-more {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding-bottom: 0.3em;
+  font-size: clamp(0.85rem, 4cqi, 1.1rem);
+}
+
+.exp-more svg {
+  width: 1em;
+  height: 1em;
+  fill: var(--color-orange);
+  transition: transform 0.5s var(--ozz-ease);
+}
+
+/* ---------- Hover / foco ---------- */
+
+.exp-link:hover,
+.exp-link:focus-visible {
+  color: var(--color-bg);
+}
+
+.exp-link:hover::before,
+.exp-link:focus-visible::before {
+  transform: scaleY(1);
+}
+
+.exp-link:hover .exp-index,
+.exp-link:focus-visible .exp-index {
+  -webkit-text-stroke-color: rgba(var(--color-bg-rgb), 0.35);
+  transform: translateY(-62%);
+}
+
+.exp-link:hover .exp-more svg,
+.exp-link:focus-visible .exp-more svg {
+  transform: translateX(4px) rotate(-45deg);
+}
+
+/* ---------- Variante con foto (opcional) ---------- */
+
+.exp-card.has-image .exp-link {
+  --exp-fg: #ffffff;
+  --exp-bg: #0b0b0b;
+  background-image: none;
+}
+
+.exp-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.exp-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.08) brightness(0.6);
+  transition:
+    filter 0.8s ease,
+    transform 1.2s var(--ozz-ease);
+}
+
+.exp-card.has-image .exp-link::before {
+  display: none;
+}
+
+.exp-card.has-image .exp-link:hover,
+.exp-card.has-image .exp-link:focus-visible {
+  color: #ffffff;
+}
+
+.exp-card.has-image .exp-link:hover .exp-bg img {
+  filter: grayscale(0) brightness(0.65);
+  transform: scale(1.04);
+}
+
+/* ---------- Movimiento reducido ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .exp-link,
+  .exp-link::before,
+  .exp-index,
+  .exp-more svg {
+    transition: none !important;
+  }
+}

@@ -1,0 +1,172 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Studio/BoxsTexts.css"
+/>
+
+<section id="services" class="services">
+  <div class="services__header">
+    <h2 class="services__title">Design that moves brands forward.</h2>
+  </div>
+
+  <div class="services__grid">
+    <!-- Column: cards -->
+    <div class="services__cards">
+      <button
+        class="service-card"
+        data-modal="brand-seeds"
+        aria-haspopup="dialog"
+      >
+        <span>Brand Seeds</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="visual-identity"
+        aria-haspopup="dialog"
+      >
+        <span>Visual Identity</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="development-strategy"
+        aria-haspopup="dialog"
+      >
+        <span>Development Strategy</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="content-direction"
+        aria-haspopup="dialog"
+      >
+        <span>Content Direction</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="brand-activation"
+        aria-haspopup="dialog"
+      >
+        <span>Brand Activation</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="creative-strategy"
+        aria-haspopup="dialog"
+      >
+        <span>Creative Strategy</span>
+      </button>
+    </div>
+
+    <!-- Column: imagery (solo una imagen) -->
+    <div class="services__imagery">
+      <figure class="services__photo" aria-hidden="true">
+        <img
+          src="<?php echo $base_url; ?>/pages/Studio/Mask group.webp"
+          alt="Drift Image"
+        />
+      </figure>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div
+    class="service-modal"
+    id="service-modal"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="service-modal__dialog" role="document">
+      <button class="service-modal__close" type="button" aria-label="Close">
+        ✕
+      </button>
+      <div class="service-modal__scroll">
+        <h3 class="service-modal__title" id="service-modal-title"></h3>
+        <p class="service-modal__desc" id="service-modal-desc"></p>
+        <ul class="service-modal__bullets" id="service-modal-bullets"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Templates -->
+  <template id="tpl-brand-seeds">
+    <h4 data-title>Brand Seeds</h4>
+    <p data-desc>
+      We define the core of your brand purpose, positioning, and voice blending
+      strategy and artistry so your identity feels authentic and unforgettable.
+    </p>
+    <ul data-bullets>
+      <li>Discovery workshop</li>
+      <li>Audience mapping</li>
+      <li>Value proposition & brand story</li>
+    </ul>
+  </template>
+
+  <template id="tpl-visual-identity">
+    <h4 data-title>Visual Identity</h4>
+    <p data-desc>
+      Scalable visual systems logo, typography, color, and layout ready for
+      print, digital, and packaging so the brand stays consistent everywhere.
+    </p>
+    <ul data-bullets>
+      <li>Logo & variants</li>
+      <li>Palette, typography & layout rules</li>
+      <li>Brand guidelines & packaging specs</li>
+    </ul>
+  </template>
+
+  <template id="tpl-development-strategy">
+    <h4 data-title>Development strategy</h4>
+    <p data-desc>
+      A practical roadmap to launch or improve your website/e-commerce:
+      information architecture, hybrid CMS choices, and SEO/performance
+      priorities tailored to a small, detail-obsessed studio.
+    </p>
+    <ul data-bullets>
+      <li>Site map & information architecture</li>
+      <li>Hybrid CMS selection & setup</li>
+      <li>SEO & performance plan</li>
+    </ul>
+  </template>
+
+  <template id="tpl-content-direction">
+    <h4 data-title>Content Direction</h4>
+    <p data-desc>
+      Clear narrative and social content system to grow community and
+      visibility: art driven posts, short-form video, and guidelines ready to
+      publish.
+    </p>
+    <ul data-bullets>
+      <li>Editorial pillars & themes</li>
+      <li>Tone of voice & brand guidelines</li>
+      <li>Monthly calendar & template kit</li>
+    </ul>
+  </template>
+
+  <template id="tpl-brand-activation">
+    <h4 data-title>Brand Activation</h4>
+    <p data-desc>
+      Bring the brand to market with intent: campaigns, launches, email flows,
+      and seamless payment gateway/e-commerce integrations that convert.
+    </p>
+    <ul data-bullets>
+      <li>Launch plan & creative concepts</li>
+      <li>Email setup & automations</li>
+      <li>Payment gateways & e-commerce (catalog, inventory, databases)</li>
+    </ul>
+  </template>
+
+  <template id="tpl-creative-strategy">
+    <h4 data-title>Creative Strategy</h4>
+    <p data-desc>
+      Data-aware creativity that respects privacy: conversational chatbots, CMP
+      (Consent Management Platform), and clean data capture to learn and improve
+      without losing the brand’s soul.
+    </p>
+    <ul data-bullets>
+      <li>Chatbot flows & human handoff</li>
+      <li>Consent & privacy setup (CMP)</li>
+      <li>Tracking, dashboards & basic analytics</li>
+    </ul>
+  </template>
+</section>
+
+<script src="<?php echo $base_url; ?>/pages/Studio/OpenBoxs.js"></script>

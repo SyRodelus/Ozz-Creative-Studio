@@ -1,0 +1,97 @@
+{
+  "panel1": {
+    "href": {
+      "es": "Work/Xero_Minded-es.php",
+      "en": "Work/Xero_Minded.php"
+    },
+
+    "title": {
+      "es": "Xero Minded",
+      "en": "Xero Minded"
+    },
+
+    "description": {
+      "es": "Creamos una identidad visual audaz y cohesionada para Xero Minded, un popular streamer de gaming conocido por su jugabilidad única y su vibrante personalidad.",
+      "en": "We created a bold and cohesive visual identity for Xero Minded, a popular gaming streamer known for unique gameplay and vibrant personality."
+    },
+
+    "video": {
+      "src": "pages/Work/Xero Minded/Xero Minded Logo Animation.mp4",
+      "mobileSrc": "pages/Work/Xero Minded/Xero Minded Logo Animation Mobile.mp4",
+      "title": "Xero Minded Brand Identity",
+      "description": "Brand identity developed for gaming streamer Xero Minded.",
+      "duration": "PT12S",
+      "keywords": ["branding", "gaming", "visual identity"]
+    }
+  },
+
+  "panel2": {
+    "href": {
+      "es": "Work/Drift_Royalty-es.php",
+      "en": "Work/Drift_Royalty.php"
+    },
+
+    "title": {
+      "es": "Drift Royalty",
+      "en": "Drift Royalty"
+    },
+
+    "description": {
+      "es": "Una línea de moda premium que combina el diseño automotriz de lujo con la cultura del streetwear.",
+      "en": "A premium fashion line blending luxury automotive design with streetwear culture."
+    },
+
+    "video": {
+      "src": "pages/Work/Drift Royalty/Drift Royalty.mp4",
+      "mobileSrc": "pages/Work/Drift Royalty/Drift Royalty Mobile.mp4"
+    }
+  },
+
+  "panel3": {
+    "href": {
+      "es": "Work/Mango-es.php",
+      "en": "Work/Mango.php"
+    },
+
+    "title": {
+      "es": "Mango",
+      "en": "Mango"
+    },
+
+    "description": {
+      "es": "Entregamos una sólida estrategia BTL y digital con activaciones de alto impacto, campañas en redes y visuales coherentes que impulsaron el engagement y la consistencia de marca.",
+      "en": "We delivered a strong BTL and digital strategy with impactful activations, social campaigns and cohesive visuals that boosted engagement and brand consistency."
+    },
+
+    "video": {
+      "src": "pages/Work/Mango/Mango.mp4",
+      "mobileSrc": "pages/Work/Mango/Mango mobile.mp4"
+    }
+  },
+
+  "panel4": {
+    "href": {
+      "es": "Work/La_Casa_Roja-es.php",
+      "en": "Work/La_Casa_Roja.php"
+    },
+
+    "title": {
+      "es": "La Casa Roja",
+      "en": "La Casa Roja"
+    },
+
+    "description": {
+      "es": "Reconstruimos la identidad de La Casa Roja para darle claridad, fuerza y una presencia digital profesional.",
+      "en": "We rebuilt La Casa Roja's identity to give it clarity, strength and a professional digital presence."
+    },
+
+    "video": {
+      "src": "pages/Work/La Casa Roja/La_Casa_Roja.mp4",
+      "mobileSrc": "pages/Work/La Casa Roja/La_Casa_Roja_Mobile.mp4",
+      "title": "La Casa Roja Brand Identity",
+      "description": "Complete brand system for La Casa Roja hostel.",
+      "duration": "PT18S",
+      "keywords": ["branding", "hostel", "identity"]
+    }
+  }
+}

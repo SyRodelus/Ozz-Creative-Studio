@@ -1,0 +1,56 @@
+/* =========================================================
+   PROYECTOS (Work) — grilla de tarjetas póster
+   Reutiliza StackCardsPoster.css; aquí solo se desactiva el
+   apilado sticky y se ajustan proporciones.
+========================================================= */
+
+.wk {
+  padding-top: clamp(40px, 6vw, 80px);
+}
+
+.wk-head .ozz-head__title {
+  /* es el H1 de la página */
+  font-size: clamp(4rem, min(16vw, var(--fit)), 16rem);
+}
+
+.sc--grid .sc-grid {
+  padding-bottom: clamp(56px, 9vw, 140px);
+}
+
+/* Sin apilado: flujo normal */
+.sc--grid .sc-panel {
+  position: relative;
+  top: auto;
+}
+
+.sc--grid .sc-card {
+  aspect-ratio: 16 / 11;
+  max-height: none;
+  min-height: 0;
+  transform: none;
+}
+
+.sc--grid .sc-shade {
+  display: none;
+}
+
+/* Ritmo editorial: la 2.ª columna desplazada hacia abajo */
+@media (min-width: 900px) {
+  .sc--grid .sc-grid {
+    row-gap: clamp(28px, 4vw, 64px);
+  }
+
+  .sc--grid .sc-panel:nth-child(even) {
+    transform: translateY(clamp(40px, 8vw, 140px));
+  }
+
+  .sc--grid .sc-grid {
+    padding-bottom: calc(clamp(56px, 9vw, 140px) + clamp(40px, 8vw, 140px));
+  }
+}
+
+@media (max-width: 899px) {
+  .sc--grid .sc-card {
+    aspect-ratio: 4 / 5;
+  }
+}

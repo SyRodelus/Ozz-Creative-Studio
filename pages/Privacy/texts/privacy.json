@@ -1,0 +1,218 @@
+{
+    "privacy.01_h2": {
+        "es": "Política de Privacidad",
+        "en": "Privacy Policy"
+    },
+    "privacy.02_pp-desc": {
+        "es": "Ozz respeta tu privacidad. Esta política explica qué datos personales recopilamos a través de nuestro formulario de contacto y cómo los usamos y protegemos conforme al Reglamento General de Protección de Datos (RGPD) de la UE y otras leyes de privacidad aplicables.",
+        "en": "Ozz respects your privacy. This policy explains what personal data we collect through our contact form and how we use and protect it in line with the EU General Data Protection Regulation (GDPR) and other applicable privacy laws."
+    },
+    "privacy.03_pp-subtitle": {
+        "es": "Datos que Recopilamos",
+        "en": "Data We Collect"
+    },
+    "privacy.04_li": {
+        "es": "Tu nombre y apellido.",
+        "en": "Your first and last name."
+    },
+    "privacy.05_li": {
+        "es": "Tu dirección de correo electrónico.",
+        "en": "Your email address."
+    },
+    "privacy.06_pp-subtitle": {
+        "es": "Cómo Usamos Tus Datos",
+        "en": "How We Use Your Data"
+    },
+    "privacy.07_li": {
+        "es": "Para responder a tus consultas o proporcionarte propuestas.",
+        "en": "To respond to your inquiries or provide proposals."
+    },
+    "privacy.08_li": {
+        "es": "Para gestionar discusiones y seguimientos de proyectos.",
+        "en": "To manage project discussions and follow ups."
+    },
+    "privacy.09_li": {
+        "es": "Para enviarte actualizaciones u ofertas ocasionales solo con tu consentimiento explícito.",
+        "en": "To send occasional updates or offers only with your explicit consent."
+    },
+    "privacy.10_pp-subtitle": {
+        "es": "Base Legal",
+        "en": "Legal Basis"
+    },
+    "privacy.11_pp-desc": {
+        "es": "Procesamos tus datos en base a tu consentimiento cuando nos los proporcionas (ya sea mediante el formulario de contacto u otros medios) y, cuando corresponde, para tomar medidas a tu solicitud antes de celebrar un contrato o acuerdo de servicios con nosotros.",
+        "en": "We process your data based on your consent when you provide it to us (whether through the contact form or other means) and, when applicable, to take steps at your request prior to entering into a contract or service agreement with us."
+    },
+    "privacy.12_pp-subtitle": {
+        "es": "Cumplimiento Internacional y Transferencias de Datos",
+        "en": "International Compliance & Data Transfers"
+    },
+    "privacy.13_pp-desc_html": {
+        "es": "Procuramos cumplir con el <strong>RGPD</strong> (UE), <strong>CCPA/CPRA</strong> (EE. UU.) y <strong>LGPD</strong> (Brasil), según corresponda. Si los datos se transfieren entre fronteras, utilizamos las garantías adecuadas (por ejemplo, cláusulas contractuales tipo) para proteger tu información.",
+        "en": "We aim to comply with <strong>GDPR</strong> (EU), <strong>CCPA/CPRA</strong> (USA), and <strong>LGPD</strong> (Brazil), where applicable. If data is transferred across borders, we use appropriate safeguards (e.g., standard contractual clauses) to protect your information."
+    },
+    "privacy.14_pp-subtitle": {
+        "es": "Retención",
+        "en": "Retention"
+    },
+    "privacy.15_pp-desc": {
+        "es": "Conservamos tus datos personales solo durante el tiempo necesario para cumplir los fines descritos anteriormente o para cumplir obligaciones legales. Después de este período, eliminamos o anonimizamos tu información de forma segura.",
+        "en": "We keep your personal data only for as long as necessary to fulfill the purposes described above or to comply with legal obligations. After this period, we securely delete or anonymize your information."
+    },
+    "privacy.16_pp-subtitle": {
+        "es": "Confidencialidad",
+        "en": "Confidentiality"
+    },
+    "privacy.17_pp-desc": {
+        "es": "Tratamos cualquier información confidencial o sensible que compartas con estricta confidencialidad y la usamos únicamente para los fines del proyecto, salvo que la ley lo exija o nos autorices expresamente.",
+        "en": "We treat any confidential or sensitive information you share with strict confidentiality and use it solely for the project’s purposes, unless otherwise required by law or expressly authorized by you."
+    },
+    "privacy.18_pp-subtitle": {
+        "es": "Compartición de Datos",
+        "en": "Data Sharing"
+    },
+    "privacy.19_pp-desc": {
+        "es": "No vendemos ni intercambiamos tus datos. Podemos usar proveedores de servicios de confianza (por ejemplo, alojamiento web o servicios de correo) que procesan datos en nuestro nombre bajo estrictas condiciones de confidencialidad y seguridad.",
+        "en": "We do not sell or trade your data. We may use trusted service providers (e.g., web hosting or email services) who process data on our behalf under strict confidentiality and security conditions."
+    },
+    "privacy.20_pp-subtitle": {
+        "es": "Tus Derechos",
+        "en": "Your Rights"
+    },
+    "privacy.21_li": {
+        "es": "Acceder, corregir o eliminar tus datos personales.",
+        "en": "Access, correct, or delete your personal data."
+    },
+    "privacy.22_li": {
+        "es": "Retirar tu consentimiento en cualquier momento.",
+        "en": "Withdraw your consent at any time."
+    },
+    "privacy.23_li": {
+        "es": "Oponerte a ciertos tratamientos o solicitar la portabilidad de datos.",
+        "en": "Object to certain processing or request data portability."
+    },
+    "privacy.24_li": {
+        "es": "Presentar una reclamación ante tu autoridad local de protección de datos.",
+        "en": "Lodge a complaint with your local data protection authority."
+    },
+    "privacy.25_pp-desc": {
+        "es": "Usamos solo las siguientes categorías de cookies:",
+        "en": "We use only the following categories of cookies:"
+    },
+    "privacy.26_li_html": {
+        "es": "<strong>Cookies necesarias</strong> Siempre activas. Incluyen cookies de seguridad y rendimiento de Cloudflare y una cookie para recordar tus elecciones de consentimiento. Garantizan que el sitio cargue rápido, permanezca seguro y recuerde tus preferencias.",
+        "en": "<strong>Necessary Cookies</strong> Always active. These include security and performance cookies from Cloudflare and a cookie to remember your consent choices. They ensure the website loads quickly, stays secure, and remembers that you already set your cookie preferences."
+    },
+    "privacy.27_li_html": {
+        "es": "<strong>Cookies analíticas</strong> Usadas solo con tu consentimiento explícito. Usamos Google Analytics 4 para entender el tráfico y mejorar nuestro sitio. Estas cookies no son esenciales para la funcionalidad básica y permanecen desactivadas a menos que las aceptes en nuestro banner.",
+        "en": "<strong>Analytics Cookies</strong> Used only with your explicit consent. We use Google Analytics 4 to understand traffic and improve our site. These cookies are not essential for basic website functionality and are disabled unless you accept analytics cookies in our banner."
+    },
+    "privacy.28_pp-desc": {
+        "es": "No usamos cookies de preferencias, marketing ni publicidad. Puedes gestionar o retirar tu consentimiento para cookies analíticas en cualquier momento mediante la configuración de cookies.",
+        "en": "We do not use preference, marketing, or advertising cookies. You can manage or withdraw your consent for analytics cookies at any time through our cookie settings."
+    },
+    "privacy.29_pp-title": {
+        "es": "Términos y Condiciones",
+        "en": "Terms and Conditions"
+    },
+    "privacy.30_pp-subtitle": {
+        "es": "Pagos",
+        "en": "Payments"
+    },
+    "privacy.31_pp-desc_html": {
+        "es": "Para iniciar cualquier proyecto, el cliente debe pagar un anticipo del <strong>30%</strong> del valor total. El <strong>70%</strong> restante se pagará tras la aprobación final y antes de la entrega definitiva del producto o servicio. El anticipo del 30% es <strong>no reembolsable</strong> pues cubre la planificación y el trabajo inicial.",
+        "en": "To begin any project, the client must pay an advance of <strong>30%</strong> of the total project value. The remaining <strong>70%</strong> is due upon final approval and before definitive delivery of the product or service. The 30% advance is <strong>non-refundable</strong> as it covers planning and initial work."
+    },
+    "privacy.32_pp-subtitle": {
+        "es": "Entrega Parcial para Pruebas",
+        "en": "Pre-delivery for Testing"
+    },
+    "privacy.33_pp-desc": {
+        "es": "Si un proyecto debe ponerse en producción o entregarse parcialmente antes del pago final para pruebas o verificación, el cliente reconoce que el producto o servicio sigue siendo propiedad de Ozz Creative Studio hasta que se reciba el pago total.",
+        "en": "If a project must be put into production or partially delivered before final payment for testing or verification, the client acknowledges that the product or service remains the property of Ozz Creative Studio until full payment is received."
+    },
+    "privacy.34_pp-subtitle": {
+        "es": "Pagos Atrasados",
+        "en": "Late Payments"
+    },
+    "privacy.35_pp-desc_html": {
+        "es": "Si el saldo pendiente se retrasa más de <strong>una semana</strong> tras la entrega, se aplicará una penalización del <strong>10%</strong> del valor total del proyecto. Si el retraso supera las <strong>dos semanas</strong>, Ozz Creative Studio podrá <strong>suspender, bloquear o eliminar</strong> el producto o servicio entregado hasta recibir el pago completo, incluida la penalización.",
+        "en": "If the remaining balance is delayed by more than <strong>one week</strong> after delivery, a <strong>10%</strong> penalty of the total project value will be applied. If the delay exceeds <strong>two weeks</strong>, Ozz Creative Studio may <strong>suspend, block, or remove</strong> the delivered product or service until full payment, including the penalty, is received."
+    },
+    "privacy.36_pp-subtitle": {
+        "es": "Transferencia de Propiedad (Productos)",
+        "en": "Ownership Transfer (Products)"
+    },
+    "privacy.37_pp-desc_html": {
+        "es": "Una vez recibido el pago completo y con el acuerdo de ambas partes, la <strong>propiedad del producto</strong> diseñado o desarrollado pasa al cliente que lo pagó. Esta condición no aplica a <strong>servicios continuos</strong> (p. ej., marketing, gestión de CMP), que siguen las condiciones de servicio vigentes.",
+        "en": "Once full payment has been received and both parties have agreed, <strong>ownership of the product</strong> designed or developed passes to the paying client. This condition does not apply to continuous <strong>services</strong> (e.g., marketing, CMP management), which remain governed by the applicable service terms."
+    },
+    "privacy.38_pp-subtitle": {
+        "es": "Cambios y Mantenimiento",
+        "en": "Changes & Maintenance"
+    },
+    "privacy.39_pp-desc_html": {
+        "es": "Después de transferida la propiedad de un producto, Ozz Creative Studio no aceptará solicitudes de cambios, modificaciones o mantenimiento, salvo que el cliente contrate un <strong>servicio de mantenimiento</strong> por separado.",
+        "en": "After ownership transfer of a product, Ozz Creative Studio will not accept requests for changes, modifications, or maintenance unless the client contracts a separate <strong>maintenance service</strong>."
+    },
+    "privacy.40_pp-subtitle": {
+        "es": "Uso de Elementos Visuales",
+        "en": "Portfolio Use (Visual Materials)"
+    },
+    "privacy.41_pp-desc": {
+        "es": "Al contratar nuestros servicios, el cliente autoriza a Ozz a almacenar y usar elementos visuales del proyecto (por ejemplo, imágenes, capturas de pantalla o mockups) con fines de promoción, portafolio y marketing. Ozz no divulgará información sensible ni código fuente.",
+        "en": "By contracting our services, the client authorizes Ozz to store and use visual elements of the project (e.g., images, screenshots, mockups) for promotion, portfolio, and marketing purposes."
+    },
+    "privacy.42_pp-subtitle": {
+        "es": "Conservación de Código Fuente",
+        "en": "Source Code Retention"
+    },
+    "privacy.43_pp-desc_html": {
+        "es": "Ozz podrá conservar el <strong>código fuente</strong> del proyecto durante el tiempo que sea necesario, excluyendo claves, contraseñas o datos sensibles, únicamente para facilitar mantenimiento, correcciones o cambios futuros. El almacenamiento del código no transfiere derechos de propiedad intelectual más allá de lo expresamente acordado.",
+        "en": "Ozz may retain the project’s <strong>source code</strong> for as long as necessary, excluding keys, passwords, or sensitive data, solely to facilitate future maintenance, fixes, or requested changes. Storing code does not transfer intellectual property rights beyond what is expressly agreed herein."
+    },
+    "privacy.44_pp-subtitle": {
+        "es": "Cancelaciones y Reembolsos",
+        "en": "Cancellations & Refunds"
+    },
+    "privacy.45_pp-desc_html": {
+        "es": "<strong>Servicios:</strong> El cliente puede cancelar en <strong>cualquier momento</strong>. El trabajo ya realizado hasta la fecha de cancelación será facturado según las tarifas o hitos acordados. El anticipo del <strong>30%</strong> es no reembolsable.",
+        "en": "<strong>Services:</strong> The client may cancel <strong>at any time</strong>. Work already performed up to the cancellation date will be billed according to the agreed rates or milestones. The <strong>30% advance is non-refundable</strong>."
+    },
+    "privacy.46_pp-desc_html": {
+        "es": "<strong>Productos:</strong> El cliente puede cancelar <strong>solo hasta que Ozz haya notificado un avance del 50%</strong> del alcance acordado. Después de esa notificación, no se aceptarán cancelaciones y aplican las condiciones de pago estándar.",
+        "en": "<strong>Products:</strong> The client may cancel <strong>only until Ozz has notified 50% progress</strong> of the agreed scope. After such notification, cancellations will not be accepted and standard payment terms apply."
+    },
+    "privacy.47_pp-desc_html": {
+        "es": "<strong>Garantía por No Entrega:</strong> Si Ozz no entrega el producto o servicio en un plazo que no supere el doble del acordado originalmente, el cliente podrá solicitar el reembolso del anticipo pagado más un <strong>10%</strong> sobre el valor del anticipo (no sobre el valor total del proyecto).",
+        "en": "<strong>Non-delivery guarantee:</strong> If Ozz fails to deliver the product or service within a period not exceeding <strong>twice the originally agreed timeline</strong>, the client may request a refund of the advance paid plus <strong>10% of the advance value</strong> (not of the total project value)."
+    },
+    "privacy.48_pp-subtitle": {
+        "es": "Limitación de Responsabilidad",
+        "en": "Limitation of Liability"
+    },
+    "privacy.49_pp-desc": {
+        "es": "En la máxima medida permitida por la ley, Ozz Creative Studio no será responsable por daños indirectos, incidentales, especiales, consecuenciales o punitivos (incluyendo pérdida de ganancias u oportunidades de negocio) derivados del uso o la imposibilidad de uso de los productos o servicios entregados.",
+        "en": "To the maximum extent permitted by law, Ozz Creative Studio will not be liable for indirect, incidental, special, consequential, or punitive damages (including loss of profits or business opportunities) arising from the use or inability to use the delivered products or services."
+    },
+    "privacy.50_pp-subtitle": {
+        "es": "Aplicabilidad Global y Ley Aplicable",
+        "en": "Global Applicability & Governing Law"
+    },
+    "privacy.51_pp-desc": {
+        "es": "Estos términos aplican a clientes de todo el mundo. Cualquier disputa o interpretación de este acuerdo se resolverá bajo las leyes y tribunales especificados por Ozz Creative Studio en el contrato o factura correspondiente.",
+        "en": "These terms apply to clients worldwide. Any disputes or interpretations of this agreement will be resolved under the laws and courts specified by Ozz Creative Studio in the corresponding contract or invoice."
+    },
+    "privacy.52_pp-subtitle": {
+        "es": "Contacto",
+        "en": "Contact"
+    },
+    "privacy.53_pp-desc_html": {
+        "es": "Para cualquier pregunta relacionada con la privacidad o los términos, o para ejercer tus derechos, escríbenos a <a href=\"mailto:contact@ozzcreativestudio.com\">contact@ozzcreativestudio.com</a>.",
+        "en": "For any privacy or terms related questions or to exercise your rights, please email us at <a href=\"mailto:contact@ozzcreativestudio.com\">contact@ozzcreativestudio.com</a>."
+    },
+    "privacy.54_small": {
+        "es": "Fecha de vigencia: 15 de septiembre de 2025",
+        "en": "Effective date: 15 September 2025"
+    }
+}

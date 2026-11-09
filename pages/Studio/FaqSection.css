@@ -1,0 +1,146 @@
+/* ===== CONTENEDOR ===== */
+.section-wrapper {
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding: 0px 30px 80px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding: 0px 15px 40px;
+  }
+}
+
+.section-heading {
+  position: relative;
+  color: var(--color-text);
+  font-family: var(--font-paragraph);
+  font-size: clamp(
+    36px,
+    6vw,
+    70px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    padding-bottom: 5px;
+  }
+}
+
+/* ===== LISTA ===== */
+.faq-list {
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* ===== TOGGLE ===== */
+.faq-toggle {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* alinea título y cruz como en projects_Style */
+  padding: 50px 0;
+  font-size: clamp(16px, 2.2vw, 28px);
+  font-weight: 500;
+  gap: 20px;
+  outline: none;
+  transition: padding 0.3s ease; /* transición suave */
+}
+
+.faq-item[open] .faq-toggle {
+  padding: 20px 0px 0px;
+}
+
+.faq-title {
+  font-family: var(--font-paragraph);
+  font-size: clamp(20px, 2.5vw, 42px);
+  line-height: 1.25;
+  flex: 1 1 auto;
+  line-height: 1; /* evita desajuste vertical del texto */
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .faq-title {
+    font-size: clamp(20px, 4vw, 42px);
+    line-height: 1.25;
+  }
+}
+
+/* ===== ICONO CRUZ ===== */
+.faq-cross {
+  font-family: var(--font-Monstserrat-ExtraLight);
+  font-weight: bold;
+  font-size: clamp(45px, 7vw, 80px); /* cruz grande */
+  line-height: 1; /* centra el glifo en la caja */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em; /* caja proporcional al tamaño del glifo */
+  height: 1em;
+  background-color: transparent;
+  background: transparent;
+  transition: transform 0.28s ease;
+  position: relative;
+  top: 2px; /* ajuste fino para alineación con el texto */
+}
+
+/* Rotación al abrir (forma una “x” como en projects_Style) */
+.faq-item[open] .faq-cross {
+  transform: rotate(45deg);
+}
+
+.faq-body {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 0.8s ease,
+    /* misma duración al abrir y cerrar */ opacity 0.8s ease,
+    padding-top 0.8s ease;
+  padding-top: 0;
+  color: var(--color-muted);
+  padding-bottom: 20px;
+}
+
+.faq-item[open] .faq-body {
+  padding-top: 10px;
+  max-height: 800px; /* valor fijo grande */
+  opacity: 1;
+}
+
+.faq-body p {
+  line-height: 1.25;
+  font-family: var(--font-paragraph);
+  font-size: clamp(17px, 2.5vw, 28px);
+}
+
+@media (max-width: 600px) {
+  .faq-toggle {
+    padding: 20px 0;
+    gap: 15px;
+  }
+
+  .faq-cross {
+    font-size: clamp(
+      36px,
+      10vw,
+      60px
+    ); /* sigue grande pero más proporcionada en mobile */
+    width: 1em;
+    height: 1em;
+    top: 1px; /* ajuste fino también en móvil */
+  }
+}

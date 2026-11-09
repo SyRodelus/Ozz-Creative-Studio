@@ -1,0 +1,49 @@
+/* Tooltip unificado con ProjectStackCards */
+.ozz-tt-tooltip {
+  position: fixed;
+  display: flex;
+  left: var(--ozz-tt-left, 12px);
+  top: var(--ozz-tt-top, 12px);
+  pointer-events: none;
+  z-index: 5;
+
+  /* Mantener colores y fuentes vía variables del root */
+  background: rgba(var(--color-bg-rgb), 0.9);
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  font-family: var(--font-paragraph);
+
+  /* Métricas y layout como en ProjectStackCards */
+  font-size: clamp(
+    14px,
+    1.5vw,
+    24px
+  ); /* Responsive: mínimo 14px, máximo 24px */
+  line-height: 1.2;
+  width: max-content;
+  box-sizing: border-box;
+  padding: clamp(6px, 0.8vw, 10px) clamp(12px, 1.6vw, 20px); /* Padding responsive */
+
+  /* Animación/posición */
+  opacity: 0;
+  transition:
+    opacity 140ms linear,
+    transform 80ms linear;
+  transform-origin: left top;
+  transform: translate(
+    var(--ozz-tt-offset-x, 12px),
+    var(--ozz-tt-offset-y, 12px)
+  );
+}
+
+/* Estado visible (mismo patrón que ProjectStackCards) */
+.ozz-tt-tooltip.ozz-tt-visible {
+  opacity: 1;
+}
+
+/* Ocultar en móviles/entrada táctil como en ProjectStackCards */
+@media (hover: none) and (pointer: coarse) {
+  .ozz-tt-tooltip {
+    display: none !important;
+  }
+}

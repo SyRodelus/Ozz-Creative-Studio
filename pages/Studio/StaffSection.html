@@ -1,0 +1,90 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Studio/StaffSection.css"
+/>
+<!-- StaffSection.html -->
+<section class="staff-wrap" aria-labelledby="staff-title">
+  <h2 id="staff-title" class="staff-title">
+    We are <span class="staff-accent">OZZ</span>
+  </h2>
+
+  <div class="staff-grid">
+    <div class="staff-card">
+      <!-- IMAGEN: SIEMPRE ARRIBA (fuera del summary) -->
+      <figure class="staff-media">
+        <img
+          class="staff-img"
+          src="<?php echo $base_url; ?>/pages/Studio/Mateo.webp"
+          alt="Mateo Gonzalez"
+        />
+      </figure>
+
+      <!-- BLOQUE FIJO PARA DESKTOP -->
+      <div class="desk-block">
+        <h3 class="staff-name">Mateo Gonzalez</h3>
+        <p class="staff-role">Co-Founder/<br />Brand Designer</p>
+        <p class="staff-text">
+          Graphic designer, illustrator, and co-founder of OZZ focused on
+          building brands with identity, purpose, and strong visual impact.
+          Blends strategy, art, and design to bring memorable ideas to life.
+        </p>
+      </div>
+
+      <!-- ACORDEÓN SIN JS (DETAILS/SUMMARY) SOLO EN MÓVIL -->
+      <details class="staff-acc">
+        <summary class="staff-summary">
+          <div class="staff-meta">
+            <h3 class="staff-name">Mateo Gonzalez</h3>
+            <p class="staff-role">Co-Founder/<br />Brand Designer</p>
+          </div>
+          <span class="staff-cross">+</span>
+        </summary>
+        <div class="mob-body">
+          <p>
+            Graphic designer, illustrator, and co-founder of OZZ focused on
+            building brands with identity, purpose, and strong visual impact.
+            Blends strategy, art, and design to bring memorable ideas to life.
+          </p>
+        </div>
+      </details>
+    </div>
+
+    <div class="staff-card">
+      <figure class="staff-media">
+        <img
+          class="staff-img"
+          src="<?php echo $base_url; ?>/pages/Studio/Steven.webp"
+          alt="Steven Rodelo"
+        />
+      </figure>
+
+      <div class="desk-block">
+        <h3 class="staff-name">Steven Rodelo</h3>
+        <p class="staff-role">Co-Founder/<br />Web Developer</p>
+        <p class="staff-text">
+          Web developer and co-founder of OZZ, specializing in building fast,
+          functional, and visually striking websites. Focused on turning ideas
+          into seamless digital experiences through clean code and smart design.
+        </p>
+      </div>
+
+      <details class="staff-acc">
+        <summary class="staff-summary">
+          <div class="staff-meta">
+            <h3 class="staff-name">Steven Rodelo</h3>
+            <p class="staff-role">Co-Founder/<br />Web Developer</p>
+          </div>
+          <span class="staff-cross">+</span>
+        </summary>
+        <div class="mob-body">
+          <p>
+            Web developer and co-founder of OZZ, specializing in building fast,
+            functional, and visually striking websites. Focused on turning ideas
+            into seamless digital experiences through clean code and smart
+            design.
+          </p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>

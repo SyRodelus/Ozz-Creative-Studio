@@ -1,0 +1,201 @@
+/* StaffSection.css */
+/* ===== CONTENEDOR ===== */
+.staff-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg, #000);
+  color: var(--color-text, #fff);
+  padding: 0 30px 80px;
+}
+.staff-title {
+  font-family: var(--font-things);
+  font-style: italic;
+  font-weight: 100;
+  color: var(--color-text);
+  white-space: nowrap;
+  font-size: clamp(52px, 6vw, 150px);
+  margin: 0 0 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.staff-accent {
+  color: var(--color-accent, #ff7a00);
+}
+
+/* GRID */
+.staff-grid {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .staff-grid {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .staff-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+@media (max-width: 540px) {
+  .staff-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/* CARD */
+.staff-card {
+  padding-bottom: 20px;
+  max-width: 70%;
+}
+
+/* IMAGEN SIEMPRE ARRIBA */
+.staff-media {
+  margin: 0 0 14px 0;
+  width: 100%;
+  aspect-ratio: 4/5;
+  background: #222;
+  overflow: hidden;
+}
+.staff-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-user-drag: none;
+  user-select: none; /* Evita seleccionar la imagen */
+  pointer-events: none;
+}
+
+/* TIPOGRAFÍA */
+.staff-name {
+  font-family: var(--font-paragraph);
+  line-height: 1.05;
+  margin: 0 0 10px;
+}
+.staff-role {
+  font-family: var(--font-paragraph);
+  line-height: 1.25;
+  margin: 0;
+}
+.staff-text {
+  font-family: var(--font-paragraph);
+  margin: 10px 0 0;
+  line-height: 1.35;
+  color: rgba(var(--color-text-rgb), 0.8);
+  text-align: left;
+  max-width: 90%;
+}
+.staff-name {
+  font-size: clamp(36px, 3.8vw, 42px);
+}
+.staff-role {
+  font-size: clamp(24px, 2.4vw, 32px);
+}
+.staff-text {
+  font-size: clamp(18px, 2.2vw, 24px);
+}
+
+/* ===== ACORDEÓN (móvil) basado en tu FAQ ===== */
+.staff-acc {
+  display: none;
+  margin: 0;
+} /* oculto en desktop */
+.staff-summary {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 6px 0;
+  cursor: pointer;
+}
+.staff-summary::-webkit-details-marker {
+  display: none;
+}
+.staff-meta {
+  flex: 1 1 auto;
+}
+.staff-cross {
+  font-family: var(--font-Monstserrat-ExtraLight, inherit);
+  font-weight: 700;
+  font-size: clamp(58px, 7vw, 85px);
+  line-height: 1;
+  position: relative;
+  top: -10px;
+  transition: transform 0.28s ease;
+}
+.staff-acc[open] .staff-cross {
+  transform: rotate(45deg);
+}
+
+.mob-body {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding-top: 0;
+  transition:
+    max-height 0.8s ease,
+    opacity 0.8s ease,
+    padding-top 0.8s ease;
+  color: var(--color-muted, #cfcfcf);
+  font-size: clamp(16px, 2.2vw, 18px);
+  line-height: 1.35;
+}
+
+.staff-acc[open] .mob-body {
+  max-height: 800px; /* valor grande para cubrir texto */
+  opacity: 1;
+  padding-top: 8px;
+}
+
+.mob-body p {
+  font-family: var(--font-paragraph);
+  margin: 10px 0 0;
+  line-height: 1.35;
+  color: rgba(var(--color-text-rgb), 0.8);
+  text-align: left;
+  max-width: 90%;
+  font-size: clamp(18px, 2.2vw, 24px);
+}
+
+/* ===== COMPORTAMIENTO POR BREAKPOINT ===== */
+/* Desktop: solo textos fijos */
+@media (min-width: 769px) {
+  .desk-block {
+    display: block;
+  }
+  .staff-acc {
+    display: none;
+  }
+  .staff-card {
+    padding-bottom: 20px;
+    max-width: 100%;
+  }
+}
+
+/* Mobile: usar summary; ocultar bloque fijo */
+@media (max-width: 768px) {
+  .desk-block {
+    display: none;
+  }
+  .staff-acc {
+    display: block;
+  }
+}

@@ -1,0 +1,72 @@
+/* =============================
+   BLOQUEO GLOBAL CON PRELOADER
+============================== */
+
+body.has-preloader .reveal-line span,
+body.has-preloader .reveal-block {
+  transform: translateY(120%) !important;
+  opacity: 0 !important;
+}
+
+/* =============================
+   ESTADO INICIAL
+============================== */
+
+.reveal-lines {
+  min-height: 1em;
+}
+
+.reveal-line,
+.reveal-mask {
+  overflow: hidden;
+}
+
+/* =============================
+   X ABIERTO
+============================== */
+
+.reveal-line.is-x-open,
+.reveal-mask.is-x-open {
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+
+/* =============================
+   ANIMACIONES TEXTO
+============================== */
+
+.reveal-line span {
+  display: inline-block;
+  transform: translateY(120%);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.reveal-line.is-visible span {
+  transform: translateY(0);
+}
+
+/* =============================
+   BLOQUES
+============================== */
+
+.reveal-block {
+  transform: translateY(120%);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s ease;
+  will-change: transform, opacity;
+}
+
+.reveal-mask.is-visible .reveal-block {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* =============================
+   ESTADO FINAL
+============================== */
+
+.reveal-line.is-done,
+.reveal-mask.is-done {
+  overflow: visible;
+}

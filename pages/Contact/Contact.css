@@ -1,0 +1,135 @@
+.fullwidth-section {
+  position: relative;
+  z-index: 3;
+  background-color: var(--color-bg);
+  width: 100%;
+  padding: 120px 30px;
+  /* era: height: 100vh; */
+  min-height: var(--fixed-dvh);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip; /* previene desborde horizontal fantasma */
+}
+
+/* Grid: 60% texto + 40% imagen (sin solaparse), responsive y ocupando el alto disponible */
+.section-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3fr 2fr; /* 60% / 40% sin que el gap provoque overflow */
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+
+  /* Ocupa toda la altura restante dentro de .fullwidth-section */
+  flex: 1 1 auto;
+  min-height: 0; /* evita overflow vertical por contenido interno */
+  min-width: 0; /* evita overflow horizontal por hijos expansivos */
+}
+
+/* Evita que cualquier columna fuerce overflow horizontal */
+.text-col,
+.image-col {
+  min-width: 0;
+}
+
+/* --- ADAPTACIÓN CLAVE --- */
+/* Haz que la tipografía escale con el ancho del CONTENEDOR (no del viewport) */
+.text-col {
+  container-type: inline-size; /* habilita unidades de container (cqi/cqw) */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: var(--font-paragraph-light);
+  font-weight: lighter;
+  font-size: clamp(18px, 1.9cqi, 60px); /* escala con el ancho de .text-col */
+  color: var(--color-text);
+  line-height: 1.1;
+  margin: 0;
+  max-width: 100%;
+  white-space: normal; /* wrap natural dentro del contenedor */
+  /* cortes seguros para cadenas largas (emails/URLs) */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.text-col h1,
+.text-col h2 {
+  margin: 0;
+  max-width: 100%;
+}
+
+.text-col h1 a,
+.text-col h2 a,
+.text-col a {
+  color: var(--color-text);
+  /* mismos cortes para enlaces largos */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.text-col h1 {
+  padding-bottom: 50px;
+}
+
+/* Contenedor de imagen: centrada y sin solapar el texto */
+.image-col {
+  display: grid;
+  place-items: center;
+  overflow: hidden; /* recorte interno si hiciera falta */
+  height: 100%;
+}
+
+/* Imagen cuadrada y responsive, nunca excede su columna (40%) ni tapa el texto */
+.image-square {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 80%;
+  object-fit: cover;
+  object-position: center;
+  display: block; /* elimina espacios inline inesperados */
+}
+
+/* <= 768px: apilar y que cada bloque use el 100% del ancho */
+@media (max-width: 670px) {
+  .image-col {
+    display: grid;
+    height: 100%;
+  }
+  .fullwidth-section {
+    width: 100%;
+    padding: 100px 15px 50px; /* tu ajuste existente */
+    height: max-content;
+  }
+
+  .section-inner {
+    display: flex; /* solicitado */
+    flex-direction: column; /* solicitado */
+    align-items: stretch; /* 🔑 asegura 100% de ancho de los hijos */
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .text-col,
+  .image-col {
+    width: 100%; /* 🔑 cada columna ocupa todo el ancho disponible */
+  }
+
+  .text-col h1 {
+    padding-bottom: 25px;
+  }
+
+  .image-square {
+    width: 100%; /* ya estaba, se reafirma para móvil */
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+@media (max-width: 530px) {
+  .text-col {
+    font-size: clamp(10px, 3.4cqi, 45px); /* escala con el ancho de .text-col */
+  }
+}

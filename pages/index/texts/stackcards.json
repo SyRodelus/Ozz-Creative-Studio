@@ -1,0 +1,19 @@
+{
+  "_section": {
+    "number": { "es": "(01)", "en": "(01)" },
+    "label": { "es": "Proyectos", "en": "Projects" },
+    "kicker": { "es": "Trabajo seleccionado", "en": "Selected work" },
+    "title": { "es": "Proyectos", "en": "Projects" },
+    "intro": {
+      "es": "Marcas que hemos construido desde la estrategia hasta el último detalle: identidad, contenido y experiencias digitales con carácter propio.",
+      "en": "Brands we have built from strategy to the last detail: identity, content and digital experiences with a character of their own."
+    },
+    "cta": { "es": "Ver todos los proyectos", "en": "View all projects" },
+    "ctaHref": { "es": "Work-es.php", "en": "Work.php" },
+    "cases": { "es": "casos", "en": "cases" }
+  },
+
+  "_comment": "Los proyectos se definen en data/projects.json. Aquí solo se elige cuáles se muestran en el inicio y en qué orden.",
+
+  "featured": ["xero", "drift", "mango", "casa"]
+}

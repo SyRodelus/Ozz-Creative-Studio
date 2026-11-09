@@ -1,0 +1,180 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Studio/BoxsTexts.css"
+/>
+
+<section id="services" class="services">
+  <div class="services__header">
+    <h2 class="services__title">
+      Diseño que impulsa a las marcas hacia adelante.
+    </h2>
+  </div>
+
+  <div class="services__grid">
+    <!-- Columna: tarjetas -->
+    <div class="services__cards">
+      <button
+        class="service-card"
+        data-modal="brand-seeds"
+        aria-haspopup="dialog"
+      >
+        <span>Semillas de Marca</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="visual-identity"
+        aria-haspopup="dialog"
+      >
+        <span>Identidad Visual</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="development-strategy"
+        aria-haspopup="dialog"
+      >
+        <span>Estrategia de Desarrollo</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="content-direction"
+        aria-haspopup="dialog"
+      >
+        <span>Dirección de Contenido</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="brand-activation"
+        aria-haspopup="dialog"
+      >
+        <span>Activación de Marca</span>
+      </button>
+      <button
+        class="service-card"
+        data-modal="creative-strategy"
+        aria-haspopup="dialog"
+      >
+        <span>Estrategia Creativa</span>
+      </button>
+    </div>
+
+    <!-- Columna: imagen -->
+    <div class="services__imagery">
+      <figure class="services__photo" aria-hidden="true">
+        <img
+          src="<?php echo $base_url; ?>/pages/Studio/Mask group.webp"
+          alt="Imagen Drift"
+        />
+      </figure>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div
+    class="service-modal"
+    id="service-modal"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="service-modal__dialog" role="document">
+      <button class="service-modal__close" type="button" aria-label="Cerrar">
+        ✕
+      </button>
+      <div class="service-modal__scroll">
+        <h3 class="service-modal__title" id="service-modal-title"></h3>
+        <p class="service-modal__desc" id="service-modal-desc"></p>
+        <ul class="service-modal__bullets" id="service-modal-bullets"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plantillas -->
+  <template id="tpl-brand-seeds">
+    <h4 data-title>Semillas de Marca</h4>
+    <p data-desc>
+      Definimos el núcleo del propósito, posicionamiento y voz de tu marca,
+      combinando estrategia y arte para que tu identidad se sienta auténtica e
+      inolvidable.
+    </p>
+    <ul data-bullets>
+      <li>Taller de descubrimiento</li>
+      <li>Mapeo de audiencia</li>
+      <li>Propuesta de valor e historia de marca</li>
+    </ul>
+  </template>
+
+  <template id="tpl-visual-identity">
+    <h4 data-title>Identidad Visual</h4>
+    <p data-desc>
+      Sistemas visuales escalables: logotipo, tipografía, color y maquetación
+      listos para impresión, digital y empaques, para que la marca se mantenga
+      consistente en todos los lugares.
+    </p>
+    <ul data-bullets>
+      <li>Logotipo y variantes</li>
+      <li>Paleta, tipografía y reglas de maquetación</li>
+      <li>Guías de marca y especificaciones de empaques</li>
+    </ul>
+  </template>
+
+  <template id="tpl-development-strategy">
+    <h4 data-title>Estrategia de Desarrollo</h4>
+    <p data-desc>
+      Una hoja de ruta práctica para lanzar o mejorar tu sitio web/e-commerce:
+      arquitectura de información, elección de CMS híbrido y prioridades de
+      SEO/rendimiento adaptadas a un estudio pequeño y obsesionado con los
+      detalles.
+    </p>
+    <ul data-bullets>
+      <li>Mapa del sitio y arquitectura de información</li>
+      <li>Selección e instalación de CMS híbrido</li>
+      <li>Plan de SEO y rendimiento</li>
+    </ul>
+  </template>
+
+  <template id="tpl-content-direction">
+    <h4 data-title>Dirección de Contenido</h4>
+    <p data-desc>
+      Narrativa clara y sistema de contenido para redes sociales para hacer
+      crecer la comunidad y la visibilidad: publicaciones impulsadas por el
+      arte, videos cortos y guías listas para publicar.
+    </p>
+    <ul data-bullets>
+      <li>Pilares editoriales y temáticas</li>
+      <li>Tono de voz y guías de marca</li>
+      <li>Calendario mensual y kit de plantillas</li>
+    </ul>
+  </template>
+
+  <template id="tpl-brand-activation">
+    <h4 data-title>Activación de Marca</h4>
+    <p data-desc>
+      Lleva la marca al mercado con intención: campañas, lanzamientos, flujos de
+      correo electrónico e integraciones de pago/e-commerce sin interrupciones
+      que convierten.
+    </p>
+    <ul data-bullets>
+      <li>Plan de lanzamiento y conceptos creativos</li>
+      <li>Configuración de correos y automatizaciones</li>
+      <li>
+        Pasarelas de pago y e-commerce (catálogo, inventario, bases de datos)
+      </li>
+    </ul>
+  </template>
+
+  <template id="tpl-creative-strategy">
+    <h4 data-title>Estrategia Creativa</h4>
+    <p data-desc>
+      Creatividad basada en datos que respeta la privacidad: chatbots
+      conversacionales, CMP (Plataforma de Gestión de Consentimiento) y captura
+      de datos limpia para aprender y mejorar sin perder el alma de la marca.
+    </p>
+    <ul data-bullets>
+      <li>Flujos de chatbot y traspaso humano</li>
+      <li>Configuración de consentimiento y privacidad (CMP)</li>
+      <li>Seguimiento, paneles y analíticas básicas</li>
+    </ul>
+  </template>
+</section>
+
+<script src="<?php echo $base_url; ?>/pages/Studio/OpenBoxs.js"></script>

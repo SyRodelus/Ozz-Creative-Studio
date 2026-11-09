@@ -1,0 +1,404 @@
+{
+    "meta": {
+        "home": {
+            "title": {
+                "es": "OZZ Estudio Creativo | Desarrollo Web, Branding y Campañas de Marketing",
+                "en": "Ozz Creative Studio | Web Development, Branding & Marketing Campaigns"
+            },
+            "description": {
+                "es": "Ozz Estudio Creativo diseña y desarrolla marcas con claridad e impacto: desarrollo web orientado a ventas y visibilidad, branding y campañas de marketing con resultados medibles.",
+                "en": "Ozz Creative Studio designs and develops brands with clarity and impact: sales-driven web development, branding and marketing campaigns with measurable results."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/es",
+                "en": "https://ozzcreativestudio.com/"
+            },
+            "ogTitle": {
+                "es": "Ozz Estudio Creativo",
+                "en": "Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Desarrollo web, branding y campañas de marketing.",
+                "en": "Web development, branding and marketing campaigns."
+            }
+        },
+        "work": {
+            "title": {
+                "es": "Ozz — Proyectos",
+                "en": "Ozz — Projects"
+            },
+            "description": {
+                "es": "Explore el portafolio de Ozz Estudio Creativo: identidad de marca, diseño digital y proyectos de desarrollo donde la estrategia se une al diseño para crear marcas memorables.",
+                "en": "Explore the Ozz Creative Studio portfolio: brand identity, digital design and development projects where strategy meets design to create memorable brands."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Projects-es",
+                "en": "https://ozzcreativestudio.com/Projects"
+            },
+            "ogTitle": {
+                "es": "Proyectos — Ozz Estudio Creativo",
+                "en": "Projects — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Identidad de marca, desarrollo web y campañas.",
+                "en": "Brand identity, web development and campaigns."
+            }
+        },
+        "contact": {
+            "title": {
+                "es": "Ozz — Contacto",
+                "en": "Ozz — Contact"
+            },
+            "description": {
+                "es": "Póngase en contacto con Ozz Estudio Creativo para iniciar su proyecto, resolver sus inquietudes o conocer cómo podemos impulsar el crecimiento de su marca.",
+                "en": "Get in touch with Ozz Creative Studio to start your project, ask your questions or learn how we can drive your brand's growth."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Contact-es",
+                "en": "https://ozzcreativestudio.com/Contact"
+            },
+            "ogTitle": {
+                "es": "Contacto — Ozz Estudio Creativo",
+                "en": "Contact — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Conversemos sobre su próximo proyecto.",
+                "en": "Let's talk about your next project."
+            }
+        },
+        "studio": {
+            "title": {
+                "es": "Ozz — Estudio",
+                "en": "Ozz — Studio"
+            },
+            "description": {
+                "es": "Ozz Estudio Creativo diseña marcas que no pasan desapercibidas. Combinamos estrategia y arte para crear identidades auténticas, experiencias digitales y activaciones de marca.",
+                "en": "Ozz Creative Studio designs brands that cannot be ignored. We blend strategy and artistry to create authentic identities, digital experiences and brand activations."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Studio-es",
+                "en": "https://ozzcreativestudio.com/Studio"
+            },
+            "ogTitle": {
+                "es": "Estudio — Ozz Estudio Creativo",
+                "en": "Studio — Ozz Creative Studio"
+            },
+            "ogDescription": {
+                "es": "Estrategia y arte al servicio de su marca.",
+                "en": "Strategy and artistry at the service of your brand."
+            }
+        },
+        "privacy": {
+            "title": {
+                "es": "Ozz — Política de privacidad",
+                "en": "Ozz — Privacy Policy"
+            },
+            "description": {
+                "es": "Lea la Política de privacidad de Ozz Estudio Creativo. Conozca cómo recopilamos, utilizamos y protegemos su información personal en nuestro sitio web y en nuestros servicios.",
+                "en": "Read the Ozz Creative Studio Privacy Policy. Learn how we collect, use and protect your personal information on our website and through our services."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Privacy_Policy-es",
+                "en": "https://ozzcreativestudio.com/Privacy_Policy"
+            },
+            "ogTitle": {
+                "es": "Política de privacidad — Ozz",
+                "en": "Privacy Policy — Ozz"
+            },
+            "ogDescription": {
+                "es": "Cómo protegemos sus datos personales.",
+                "en": "How we protect your personal data."
+            }
+        },
+        "sitemap": {
+            "title": {
+                "es": "Ozz — Mapa del sitio",
+                "en": "Ozz — Sitemap"
+            },
+            "description": {
+                "es": "Mapa del sitio de Ozz Estudio Creativo. Navegue por nuestros servicios, especialidades y proyectos, y encuentre todas las páginas del sitio.",
+                "en": "Ozz Creative Studio sitemap. Browse our services, expertise and projects, and find every page of the site."
+            },
+            "canonical": {
+                "es": "https://ozzcreativestudio.com/Sitemap-es",
+                "en": "https://ozzcreativestudio.com/Sitemap"
+            },
+            "ogTitle": {
+                "es": "Mapa del sitio — Ozz",
+                "en": "Sitemap — Ozz"
+            },
+            "ogDescription": {
+                "es": "Todas las páginas de Ozz Estudio Creativo.",
+                "en": "Every page of Ozz Creative Studio."
+            }
+        }
+    },
+    "common": {
+        "studio": {
+            "es": "Ozz Estudio Creativo",
+            "en": "Ozz Creative Studio"
+        },
+        "viewProject": {
+            "es": "Ver proyecto",
+            "en": "View project"
+        },
+        "homeAria": {
+            "es": "Ir a la página principal de Ozz Estudio Creativo",
+            "en": "Go to the Ozz Creative Studio home page"
+        }
+    },
+    "tools": {
+        "langLabel": {
+            "es": "ES",
+            "en": "EN"
+        },
+        "langTitle": {
+            "es": "Ver el sitio en inglés",
+            "en": "Ver el sitio en español"
+        }
+    },
+    "menu": {
+        "Services": {
+            "es": "Servicios",
+            "en": "Services"
+        },
+        "Expertise": {
+            "es": "Especialidades",
+            "en": "Expertise"
+        },
+        "Work": {
+            "es": "Proyectos",
+            "en": "Work"
+        },
+        "Studio": {
+            "es": "Estudio",
+            "en": "Studio"
+        },
+        "Contact": {
+            "es": "Contáctenos",
+            "en": "Talk to Us"
+        }
+    },
+    "footer": {
+        "number": {
+            "es": "(04) Contacto",
+            "en": "(04) Contact"
+        },
+        "kicker": {
+            "es": "Hablemos de su proyecto",
+            "en": "Let's talk about your project"
+        },
+        "title": {
+            "es": "¿Tiene un proyecto en mente?",
+            "en": "Have a project in mind?"
+        },
+        "intro": {
+            "es": "Cuéntenos sus objetivos y le propondremos la ruta más adecuada para alcanzarlos. Respondemos cada solicitud de manera personalizada.",
+            "en": "Tell us about your goals and we will propose the most suitable path to achieve them. We answer every request personally."
+        },
+        "cta": {
+            "es": "Solicitar una asesoría",
+            "en": "Request a consultation"
+        },
+        "emailLabel": {
+            "es": "Correo electrónico",
+            "en": "Email"
+        },
+        "whatsappLabel": {
+            "es": "WhatsApp",
+            "en": "WhatsApp"
+        },
+        "navTitle": {
+            "es": "Navegación",
+            "en": "Navigation"
+        },
+        "servicesTitle": {
+            "es": "Servicios",
+            "en": "Services"
+        },
+        "expertiseTitle": {
+            "es": "Especialidades",
+            "en": "Expertise"
+        },
+        "socialTitle": {
+            "es": "Redes",
+            "en": "Social"
+        },
+        "home": {
+            "es": "Inicio",
+            "en": "Home"
+        },
+        "work": {
+            "es": "Proyectos",
+            "en": "Work"
+        },
+        "studioLink": {
+            "es": "Estudio",
+            "en": "Studio"
+        },
+        "contact": {
+            "es": "Contacto",
+            "en": "Contact"
+        },
+        "privacy": {
+            "es": "Privacidad",
+            "en": "Privacy"
+        },
+        "sitemap": {
+            "es": "Mapa del sitio",
+            "en": "Sitemap"
+        },
+        "cookies": {
+            "es": "Cookies",
+            "en": "Cookies"
+        },
+        "rights": {
+            "es": "Todos los derechos reservados.",
+            "en": "All rights reserved."
+        },
+        "backTop": {
+            "es": "Volver arriba",
+            "en": "Back to top"
+        }
+    },
+    "work": {
+        "number": {
+            "es": "(Portafolio)",
+            "en": "(Portfolio)"
+        },
+        "kicker": {
+            "es": "Trabajo seleccionado",
+            "en": "Selected work"
+        },
+        "count": {
+            "es": "proyectos",
+            "en": "projects"
+        },
+        "title": {
+            "es": "Proyectos",
+            "en": "Work"
+        },
+        "intro": {
+            "es": "Cada proyecto se construye sobre una estructura estratégica que integra posicionamiento de marca, sistemas visuales y producción digital, con soluciones precisas, coherentes y escalables.",
+            "en": "Every project is built on a strategic structure that integrates brand positioning, visual systems and digital production, with precise, coherent and scalable solutions."
+        },
+        "cta": {
+            "es": "Iniciar un proyecto",
+            "en": "Start a project"
+        }
+    },
+    "contact": {
+        "number": {
+            "es": "(Contacto)",
+            "en": "(Contact)"
+        },
+        "kicker": {
+            "es": "Conversemos",
+            "en": "Let's talk"
+        },
+        "reply": {
+            "es": "Atención personalizada",
+            "en": "Personal attention"
+        },
+        "title": {
+            "es": "Hablemos",
+            "en": "Let's talk"
+        },
+        "intro": {
+            "es": "Comparta con nosotros los detalles de su proyecto. Un integrante de nuestro equipo revisará su solicitud y se pondrá en contacto con usted para definir los siguientes pasos.",
+            "en": "Share the details of your project with us. A member of our team will review your request and contact you to define the next steps."
+        },
+        "channelsTitle": {
+            "es": "Canales directos",
+            "en": "Direct channels"
+        },
+        "emailLabel": {
+            "es": "Correo electrónico",
+            "en": "Email"
+        },
+        "whatsappLabel": {
+            "es": "WhatsApp",
+            "en": "WhatsApp"
+        },
+        "socialTitle": {
+            "es": "Redes",
+            "en": "Social"
+        },
+        "formTitle": {
+            "es": "Cuéntenos sobre su proyecto",
+            "en": "Tell us about your project"
+        },
+        "firstName": {
+            "es": "Nombre",
+            "en": "First name"
+        },
+        "lastName": {
+            "es": "Apellido",
+            "en": "Last name"
+        },
+        "email": {
+            "es": "Correo electrónico",
+            "en": "Email"
+        },
+        "company": {
+            "es": "Empresa (opcional)",
+            "en": "Company (optional)"
+        },
+        "serviceLegend": {
+            "es": "Servicio de interés",
+            "en": "Service of interest"
+        },
+        "serviceOther": {
+            "es": "Otro",
+            "en": "Other"
+        },
+        "budget": {
+            "es": "Presupuesto estimado",
+            "en": "Estimated budget"
+        },
+        "budgetOptions": {
+            "es": [
+                "Por definir",
+                "Menos de USD 2.000",
+                "USD 2.000 – 5.000",
+                "USD 5.000 – 10.000",
+                "Más de USD 10.000"
+            ],
+            "en": [
+                "To be defined",
+                "Under USD 2,000",
+                "USD 2,000 – 5,000",
+                "USD 5,000 – 10,000",
+                "Over USD 10,000"
+            ]
+        },
+        "message": {
+            "es": "Mensaje",
+            "en": "Message"
+        },
+        "messagePlaceholder": {
+            "es": "Describa brevemente su proyecto, sus objetivos y plazos.",
+            "en": "Briefly describe your project, goals and timeline."
+        },
+        "consentA": {
+            "es": "Autorizo el tratamiento de mis datos de acuerdo con la",
+            "en": "I authorize the processing of my data in accordance with the"
+        },
+        "consentLink": {
+            "es": "Política de Privacidad",
+            "en": "Privacy Policy"
+        },
+        "submit": {
+            "es": "Enviar solicitud",
+            "en": "Send request"
+        },
+        "sending": {
+            "es": "Enviando…",
+            "en": "Sending…"
+        },
+        "required": {
+            "es": "Campos obligatorios",
+            "en": "Required fields"
+        }
+    }
+}

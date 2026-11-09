@@ -1,0 +1,72 @@
+/* Ocultamos el select nativo, pero sigue existiendo para accesibilidad */
+#sm-group.sm-select {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Contenedor del custom select */
+.sm-select-wrapper {
+  position: relative;
+  width: max-content;
+  min-width: 220px;
+  font: inherit;
+}
+
+/* Caja principal visible */
+.sm-select-display {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid color-mix(in oklab, var(--color-text) 18%, transparent);
+  padding: 10px 14px;
+  cursor: var(--cursor-pointer, pointer);
+  user-select: none;
+  position: relative;
+  display: flex;
+  justify-content: space-between; /* texto a la izquierda, flecha a la derecha */
+  gap: 10px;
+  align-items: center;
+  max-width: fit-content;
+}
+
+/* Flecha a la derecha */
+.sm-select-display::after {
+  content: "▴"; /* símbolo ^ */
+  font-size: 2em;
+  line-height: 1lh;
+  transition: transform 0.2s ease;
+}
+
+/* Cuando está abierto, giramos la flecha hacia abajo */
+.sm-select-wrapper.open .sm-select-display::after {
+  transform: rotate(180deg); /* se convierte en ▾ */
+}
+
+/* Opciones */
+.sm-select-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--color-bg);
+  border: 1px solid color-mix(in oklab, var(--color-text) 18%, transparent);
+  margin: 4px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  z-index: 10;
+}
+
+.sm-select-options li {
+  padding: 10px 14px;
+  cursor: var(--cursor-pointer, pointer);
+}
+
+.sm-select-options li:hover {
+  background: color-mix(in oklab, var(--color-text) 12%, var(--color-bg));
+}
+
+/* Estado abierto */
+.sm-select-wrapper.open .sm-select-options {
+  display: block;
+}

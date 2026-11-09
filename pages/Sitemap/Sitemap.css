@@ -1,0 +1,135 @@
+/* Consistente con tu hoja existente; mantiene variables y tipografías */
+* {
+  box-sizing: border-box;
+}
+
+.sm-section {
+  position: relative;
+  z-index: 3;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-paragraph);
+  width: 100%;
+  padding: 110px 30px 60px 30px;
+  min-height: var(--fixed-dvh);
+}
+
+.sm-container {
+  max-width: 100%;
+}
+
+.sm-title {
+  font-family: var(--font-title);
+  color: var(--color-text);
+  font-size: clamp(36px, 6vw, 60px);
+  font-weight: 100;
+  padding-bottom: 10px;
+  line-height: 1.1;
+}
+
+.sm-desc {
+  color: var(--color-text);
+  font-size: clamp(18px, 2.5vw, 20px);
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 10px 0 24px 0;
+}
+
+.sm-toolbar {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.sm-search,
+.sm-select {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid color-mix(in oklab, var(--color-text) 18%, transparent);
+  padding: 10px 14px;
+  font: inherit;
+  outline: none;
+}
+.sm-select option {
+  background: var(--color-bg);
+}
+
+.sm-list {
+  width: 100%;
+}
+
+.sm-group {
+  margin: 18px 0;
+}
+.sm-group-title {
+  font-family: var(--font-title);
+  color: var(--color-text);
+  font-weight: 100;
+  font-size: clamp(24px, 4vw, 32px);
+  margin: 8px 0 12px 0;
+}
+
+.sm-cards {
+  display: flex; /* Usamos flex en vez de grid */
+  flex-direction: column; /* Lista vertical */
+  width: 100%;
+  gap: 14px; /* Mantiene el mismo espacio entre items */
+}
+
+/* .sm-card sigue siendo un bloque clickeable con los mismos estilos */
+.sm-card {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: var(--color-text);
+  border: 1px solid color-mix(in oklab, var(--color-text) 14%, transparent);
+  padding: 16px;
+  background: color-mix(in oklab, var(--color-bg) 96%, black 4%);
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease;
+  cursor: pointer;
+}
+
+.sm-card:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in oklab, var(--color-text) 30%, transparent);
+}
+
+/* Mantengo estilos de texto y metadatos */
+.sm-link {
+  /* ya no se usa, pero lo dejamos neutro por compatibilidad */
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  word-break: break-word;
+  font-size: clamp(16px, 2.3vw, 18px);
+}
+
+.sm-meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.sm-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px dashed color-mix(in oklab, var(--color-text) 25%, transparent);
+  padding: 6px 10px;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .sm-section {
+    padding: 80px 15px 30px 15px;
+  }
+  .sm-toolbar {
+    grid-template-columns: 1fr;
+  }
+}

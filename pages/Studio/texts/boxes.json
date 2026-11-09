@@ -1,0 +1,158 @@
+{
+    "boxes.01_services__title": {
+        "es": "Diseño que impulsa a las marcas hacia adelante.",
+        "en": "Design that moves brands forward."
+    },
+    "boxes.02_span": {
+        "es": "Semillas de Marca",
+        "en": "Brand Seeds"
+    },
+    "boxes.03_span": {
+        "es": "Identidad Visual",
+        "en": "Visual Identity"
+    },
+    "boxes.04_span": {
+        "es": "Estrategia de Desarrollo",
+        "en": "Development Strategy"
+    },
+    "boxes.05_span": {
+        "es": "Dirección de Contenido",
+        "en": "Content Direction"
+    },
+    "boxes.06_span": {
+        "es": "Activación de Marca",
+        "en": "Brand Activation"
+    },
+    "boxes.07_span": {
+        "es": "Estrategia Creativa",
+        "en": "Creative Strategy"
+    },
+    "boxes.08_img_alt": {
+        "es": "Imagen Drift",
+        "en": "Drift Image"
+    },
+    "boxes.09_service-modal__close_aria-label": {
+        "es": "Cerrar",
+        "en": "Close"
+    },
+    "boxes.10_h4": {
+        "es": "Semillas de Marca",
+        "en": "Brand Seeds"
+    },
+    "boxes.11_p": {
+        "es": "Definimos el núcleo del propósito, posicionamiento y voz de tu marca, combinando estrategia y arte para que tu identidad se sienta auténtica e inolvidable.",
+        "en": "We define the core of your brand purpose, positioning, and voice blending strategy and artistry so your identity feels authentic and unforgettable."
+    },
+    "boxes.12_li": {
+        "es": "Taller de descubrimiento",
+        "en": "Discovery workshop"
+    },
+    "boxes.13_li": {
+        "es": "Mapeo de audiencia",
+        "en": "Audience mapping"
+    },
+    "boxes.14_li": {
+        "es": "Propuesta de valor e historia de marca",
+        "en": "Value proposition & brand story"
+    },
+    "boxes.15_h4": {
+        "es": "Identidad Visual",
+        "en": "Visual Identity"
+    },
+    "boxes.16_p": {
+        "es": "Sistemas visuales escalables: logotipo, tipografía, color y maquetación listos para impresión, digital y empaques, para que la marca se mantenga consistente en todos los lugares.",
+        "en": "Scalable visual systems logo, typography, color, and layout ready for print, digital, and packaging so the brand stays consistent everywhere."
+    },
+    "boxes.17_li": {
+        "es": "Logotipo y variantes",
+        "en": "Logo & variants"
+    },
+    "boxes.18_li": {
+        "es": "Paleta, tipografía y reglas de maquetación",
+        "en": "Palette, typography & layout rules"
+    },
+    "boxes.19_li": {
+        "es": "Guías de marca y especificaciones de empaques",
+        "en": "Brand guidelines & packaging specs"
+    },
+    "boxes.20_h4": {
+        "es": "Estrategia de Desarrollo",
+        "en": "Development strategy"
+    },
+    "boxes.21_p": {
+        "es": "Una hoja de ruta práctica para lanzar o mejorar tu sitio web/e-commerce: arquitectura de información, elección de CMS híbrido y prioridades de SEO/rendimiento adaptadas a un estudio pequeño y obsesionado con los detalles.",
+        "en": "A practical roadmap to launch or improve your website/e-commerce: information architecture, hybrid CMS choices, and SEO/performance priorities tailored to a small, detail-obsessed studio."
+    },
+    "boxes.22_li": {
+        "es": "Mapa del sitio y arquitectura de información",
+        "en": "Site map & information architecture"
+    },
+    "boxes.23_li": {
+        "es": "Selección e instalación de CMS híbrido",
+        "en": "Hybrid CMS selection & setup"
+    },
+    "boxes.24_li": {
+        "es": "Plan de SEO y rendimiento",
+        "en": "SEO & performance plan"
+    },
+    "boxes.25_h4": {
+        "es": "Dirección de Contenido",
+        "en": "Content Direction"
+    },
+    "boxes.26_p": {
+        "es": "Narrativa clara y sistema de contenido para redes sociales para hacer crecer la comunidad y la visibilidad: publicaciones impulsadas por el arte, videos cortos y guías listas para publicar.",
+        "en": "Clear narrative and social content system to grow community and visibility: art driven posts, short-form video, and guidelines ready to publish."
+    },
+    "boxes.27_li": {
+        "es": "Pilares editoriales y temáticas",
+        "en": "Editorial pillars & themes"
+    },
+    "boxes.28_li": {
+        "es": "Tono de voz y guías de marca",
+        "en": "Tone of voice & brand guidelines"
+    },
+    "boxes.29_li": {
+        "es": "Calendario mensual y kit de plantillas",
+        "en": "Monthly calendar & template kit"
+    },
+    "boxes.30_h4": {
+        "es": "Activación de Marca",
+        "en": "Brand Activation"
+    },
+    "boxes.31_p": {
+        "es": "Lleva la marca al mercado con intención: campañas, lanzamientos, flujos de correo electrónico e integraciones de pago/e-commerce sin interrupciones que convierten.",
+        "en": "Bring the brand to market with intent: campaigns, launches, email flows, and seamless payment gateway/e-commerce integrations that convert."
+    },
+    "boxes.32_li": {
+        "es": "Plan de lanzamiento y conceptos creativos",
+        "en": "Launch plan & creative concepts"
+    },
+    "boxes.33_li": {
+        "es": "Configuración de correos y automatizaciones",
+        "en": "Email setup & automations"
+    },
+    "boxes.34_li": {
+        "es": "Pasarelas de pago y e-commerce (catálogo, inventario, bases de datos)",
+        "en": "Payment gateways & e-commerce (catalog, inventory, databases)"
+    },
+    "boxes.35_h4": {
+        "es": "Estrategia Creativa",
+        "en": "Creative Strategy"
+    },
+    "boxes.36_p": {
+        "es": "Creatividad basada en datos que respeta la privacidad: chatbots conversacionales, CMP (Plataforma de Gestión de Consentimiento) y captura de datos limpia para aprender y mejorar sin perder el alma de la marca.",
+        "en": "Data-aware creativity that respects privacy: conversational chatbots, CMP (Consent Management Platform), and clean data capture to learn and improve without losing the brand’s soul."
+    },
+    "boxes.37_li": {
+        "es": "Flujos de chatbot y traspaso humano",
+        "en": "Chatbot flows & human handoff"
+    },
+    "boxes.38_li": {
+        "es": "Configuración de consentimiento y privacidad (CMP)",
+        "en": "Consent & privacy setup (CMP)"
+    },
+    "boxes.39_li": {
+        "es": "Seguimiento, paneles y analíticas básicas",
+        "en": "Tracking, dashboards & basic analytics"
+    }
+}

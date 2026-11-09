@@ -1,0 +1,38 @@
+{
+    "staff.01_staff-title_html": {
+        "es": "Somos <span class=\"staff-accent\">OZZ</span>",
+        "en": "We are <span class=\"staff-accent\">OZZ</span>"
+    },
+    "staff.02_staff-role_html": {
+        "es": "Co-Fundador/<br>Diseñador de Marca",
+        "en": "Co-Founder/<br>Brand Designer"
+    },
+    "staff.03_staff-text": {
+        "es": "Diseñador gráfico, ilustrador y cofundador de OZZ enfocado en construir marcas con identidad, propósito y un fuerte impacto visual. Combina estrategia, arte y diseño para dar vida a ideas memorables.",
+        "en": "Graphic designer, illustrator, and co-founder of OZZ focused on building brands with identity, purpose, and strong visual impact. Blends strategy, art, and design to bring memorable ideas to life."
+    },
+    "staff.04_staff-role_html": {
+        "es": "Co-Fundador/<br>Diseñador de Marca",
+        "en": "Co-Founder/<br>Brand Designer"
+    },
+    "staff.05_p": {
+        "es": "Diseñador gráfico, ilustrador y cofundador de OZZ enfocado en construir marcas con identidad, propósito y un fuerte impacto visual. Combina estrategia, arte y diseño para dar vida a ideas memorables.",
+        "en": "Graphic designer, illustrator, and co-founder of OZZ focused on building brands with identity, purpose, and strong visual impact. Blends strategy, art, and design to bring memorable ideas to life."
+    },
+    "staff.06_staff-role_html": {
+        "es": "Co-Fundador/<br>Desarrollador Web",
+        "en": "Co-Founder/<br>Web Developer"
+    },
+    "staff.07_staff-text": {
+        "es": "Desarrollador web y cofundador de OZZ, especializado en crear sitios web rápidos, funcionales y visualmente impactantes. Enfocado en convertir ideas en experiencias digitales fluidas a través de código limpio y diseño inteligente.",
+        "en": "Web developer and co-founder of OZZ, specializing in building fast, functional, and visually striking websites. Focused on turning ideas into seamless digital experiences through clean code and smart design."
+    },
+    "staff.08_staff-role_html": {
+        "es": "Co-Fundador/<br>Desarrollador Web",
+        "en": "Co-Founder/<br>Web Developer"
+    },
+    "staff.09_p": {
+        "es": "Desarrollador web y cofundador de OZZ, especializado en crear sitios web rápidos, funcionales y visualmente impactantes. Enfocado en convertir ideas en experiencias digitales fluidas a través de código limpio y diseño inteligente.",
+        "en": "Web developer and co-founder of OZZ, specializing in building fast, functional, and visually striking websites. Focused on turning ideas into seamless digital experiences through clean code and smart design."
+    }
+}

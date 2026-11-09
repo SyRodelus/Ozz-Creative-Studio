@@ -1,0 +1,11 @@
+# robots.txt para ozzcreativestudio.com
+# Permite a todos los motores de búsqueda rastrear todo el sitio
+User-agent: *
+Allow: /
+
+# Asegura el acceso al favicon
+Allow: /favicon.ico
+Allow: /favicon.png
+
+# Ubicación del sitemap
+Sitemap: https://ozzcreativestudio.com/sitemap.xml

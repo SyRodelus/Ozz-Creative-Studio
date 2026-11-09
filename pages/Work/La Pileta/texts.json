@@ -1,0 +1,62 @@
+{
+    "pileta.01_p": {
+        "es": "Rediseñamos completamente la identidad de La Pileta, un sauna en Santiago con un concepto único: un espacio que combina bienestar, intimidad y una experiencia sensorial moderna, orientado hacia un público masculino claramente definido. A través de un branding sólido, contenido profesional y una estrategia digital clara, transformamos su presencia online y fortalecimos la marca.",
+        "en": "We completely redesigned La Pileta's identity, a sauna in Santiago with a unique concept: a space that blends well-being, intimacy, and a modern sensorial experience, oriented toward a clearly defined male audience. Through solid branding, professional content, and a clear digital strategy, we transformed their online presence and strengthened the brand."
+    },
+    "pileta.02_project-title": {
+        "es": "Información del Proyecto",
+        "en": "Project Information"
+    },
+    "pileta.03_h2": {
+        "es": "DESAFÍO",
+        "en": "CHALLENGE"
+    },
+    "pileta.04_p": {
+        "es": "La Pileta era un sauna nuevo con alcance limitado, baja visibilidad y contenido previo que carecía de atractivo estético. El desafío no era corregir un posicionamiento incorrecto, sino construir desde cero una identidad visual que comunicara sensualidad con elegancia, evocara deseo y confianza, y estableciera una base sólida de clientes a través de redes sociales.",
+        "en": "La Pileta was a new sauna with limited reach, low visibility, and previous content that lacked aesthetic appeal. The challenge wasn't to correct a wrong positioning, but to build from scratch a visual identity that communicated sensuality with elegance, evoked desire and trust, and established a strong base of clients through social media."
+    },
+    "pileta.05_h2": {
+        "es": "TRANSFORMACIÓN",
+        "en": "TRANSFORMATION"
+    },
+    "pileta.06_p": {
+        "es": "Desarrollamos una identidad visual completa: logo, paleta de colores, sistema gráfico, fotografía y video profesional, junto con una estrategia de contenido y gestión completa de redes sociales. Creamos una estética sugerente pero sofisticada diseñada para destacar en el feed, transmitir confianza y conectar emocionalmente con su audiencia principal. Reconstruimos completamente el Instagram con una narrativa clara, coherente y visualmente impactante.",
+        "en": "We developed a complete visual identity: logo, color palette, graphic system, professional photography and video, along with a content strategy and full social media management. We crafted a suggestive yet sophisticated aesthetic designed to stand out in the feed, convey confidence, and connect emotionally with its core audience. The Instagram was fully rebuilt with a clear, coherent, and visually striking narrative."
+    },
+    "pileta.07_h2": {
+        "es": "HISTORIA",
+        "en": "STORY"
+    },
+    "pileta.08_p": {
+        "es": "Como marca nueva, La Pileta necesitaba expresar su propuesta de valor: un espacio íntimo, moderno y acogedor donde coexisten el bienestar y la sensualidad. Su presencia digital inicial no reflejaba esta esencia—carecía de intención estética y narrativa. Analizamos el concepto, el público ideal y la experiencia real ofrecida por el sauna, creando visuals elegantes, contenido atractivo y un estilo narrativo que presenta a La Pileta como un lugar seguro, estimulante y único en Santiago. La marca ganó voz, estética y propósito.",
+        "en": "As a new brand, La Pileta needed to express its value proposition: an intimate, modern, and welcoming space where well-being and sensuality coexist. Its initial digital presence didn't reflect this essence—it lacked aesthetic intention and narrative. We analyzed the concept, the ideal audience, and the real experience offered by the sauna, creating elegant visuals, engaging content, and a narrative style that presents La Pileta as a safe, stimulating, and unique place in Santiago. The brand gained voice, aesthetic, and purpose."
+    },
+    "pileta.09_h2": {
+        "es": "IMPACTO",
+        "en": "IMPACT"
+    },
+    "pileta.10_p_html": {
+        "es": "<span class=\"bullet\">•</span> Crecimiento rápido en seguidores, alcance y engagement en Instagram.",
+        "en": "<span class=\"bullet\">•</span> Rapid growth in followers, reach, and engagement on Instagram."
+    },
+    "pileta.11_p_html": {
+        "es": "<span class=\"bullet\">•</span> Aumento significativo en el flujo de clientes gracias a una comunicación atractiva y profesional.",
+        "en": "<span class=\"bullet\">•</span> Significant increase in customer flow thanks to attractive and professional communication."
+    },
+    "pileta.12_p_html": {
+        "es": "<span class=\"bullet\">•</span> Una identidad visual sólida que equilibra sensualidad y sofisticación.",
+        "en": "<span class=\"bullet\">•</span> A solid visual identity balancing sensuality and sophistication."
+    },
+    "pileta.13_p_html": {
+        "es": "<span class=\"bullet\">•</span> Posicionamiento claro dentro del mercado de saunas para hombres en Santiago, destacando a través de la estética y coherencia.",
+        "en": "<span class=\"bullet\">•</span> Clear positioning within Santiago's market of saunas for men, standing out through aesthetics and coherence."
+    },
+    "pileta.14_p_html": {
+        "es": "<span class=\"bullet\">•</span> Una comunidad fortalecida construida a través de una comunicación inclusiva, visualmente poderosa y emocionalmente resonante.",
+        "en": "<span class=\"bullet\">•</span> A strengthened community built through inclusive, visually powerful, and emotionally resonant communication."
+    },
+    "pileta.15_script_src": {
+        "es": "{BASE_URL}/pages/Work/LoadVideosProjects-es.js",
+        "en": "{BASE_URL}/pages/Work/LoadVideosProjects.js"
+    }
+}

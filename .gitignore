@@ -1,0 +1,18 @@
+# --- Secretos: NUNCA subir ---
+# Credenciales SMTP reales (copiar config/mail.example.php a config/mail.php)
+config/mail.php
+.env
+
+# Registros con IPs de visitantes
+logs/*.txt
+
+# Herramientas de desarrollo / sistema
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Dependencias de Composer (se instalan con: composer install)
+vendor/

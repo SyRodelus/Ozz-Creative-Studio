@@ -1,0 +1,58 @@
+{
+    "xero.01_p": {
+        "es": "Creamos una identidad visual audaz y cohesionada para Xero Minded, un popular streamer de videojuegos conocido por su jugabilidad única y su personalidad vibrante. Usando tipografía llamativa, texturas elegantes y una paleta de colores dinámica, el branding fortalece su presencia y profundiza la conexión con la audiencia.",
+        "en": "We created a bold, cohesive visual identity for Xero Minded, a popular gaming streamer known for unique gameplay and vibrant personality. Using striking typography, sleek textures, and a dynamic color palette, the branding strengthens his presence and deepens audience connection."
+    },
+    "xero.02_project-title": {
+        "es": "Información del Proyecto",
+        "en": "Project Information"
+    },
+    "xero.04_h2": {
+        "es": "DESAFÍO",
+        "en": "CHALLENGE"
+    },
+    "xero.05_p": {
+        "es": "Diferenciar a Xero Minded, un streamer de videojuegos en rápido crecimiento, con una identidad visual sólida que capture su dinámica personalidad y se destaque en un mercado de streaming saturado.",
+        "en": "Differentiate Xero Minded, a fast growing gaming streamer, with a strong visual identity that captures his dynamic personality and stands out in a crowded streaming market."
+    },
+    "xero.06_h2": {
+        "es": "TRANSFORMACIÓN",
+        "en": "TRANSFORMATION"
+    },
+    "xero.07_p": {
+        "es": "Entregamos un sistema completo de identidad de marca: logotipo, tipografía, paleta de colores y gráficos diseñados para ser escalables en plataformas de streaming, redes sociales y merchandising.",
+        "en": "Delivered a complete brand identity system logo, typography, color palette, and graphics designed for scalability across streaming platforms, social media, and merchandise."
+    },
+    "xero.08_h2": {
+        "es": "HISTORIA",
+        "en": "STORY"
+    },
+    "xero.09_p": {
+        "es": "Xero Minded tenía una comunidad leal pero carecía de un branding cohesivo para elevar su presencia profesional. Analizamos su audiencia y personalidad, y luego creamos una estética audaz pero accesible, usando colores vibrantes, tipografía llamativa y texturas elegantes. El resultado es una identidad de marca flexible que amplifica su personalidad, fortalece la conexión con su audiencia y lo posiciona para futuras colaboraciones.",
+        "en": "Xero Minded had a loyal following but lacked cohesive branding to elevate his professional presence. We analyzed his audience and persona, then crafted a bold yet approachable aesthetic using vibrant colors, striking typography, and sleek textures. The result is a flexible brand identity that amplifies his personality, strengthens audience connection, and positions him for future collaborations."
+    },
+    "xero.10_h2": {
+        "es": "IMPACTO",
+        "en": "IMPACT"
+    },
+    "xero.11_p_html": {
+        "es": "<span class=\"bullet\">•</span> Mayor interacción y reconocimiento de la audiencia en Twitch y redes sociales.",
+        "en": "<span class=\"bullet\">•</span> Enhanced audience engagement and recognition across Twitch and social channels."
+    },
+    "xero.12_p_html": {
+        "es": "<span class=\"bullet\">•</span> Incremento en la percepción de profesionalismo, atrayendo oportunidades de patrocinio y asociaciones.",
+        "en": "<span class=\"bullet\">•</span> Increased perceived professionalism, attracting sponsorship and partnership opportunities."
+    },
+    "xero.13_p_html": {
+        "es": "<span class=\"bullet\">•</span> Creación de un sistema visual escalable adaptable a overlays, merchandising y campañas.",
+        "en": "<span class=\"bullet\">•</span> Created a scalable visual system adaptable to overlays, merchandise, and campaigns."
+    },
+    "xero.14_p_html": {
+        "es": "<span class=\"bullet\">•</span> Lealtad reforzada gracias a una identidad de marca auténtica, moderna y memorable.",
+        "en": "<span class=\"bullet\">•</span> Reinforced loyalty through a brand identity that feels authentic, modern, and memorable."
+    },
+    "xero.15_script_src": {
+        "es": "{BASE_URL}/pages/Work/LoadVideosProjects-es.js",
+        "en": "{BASE_URL}/pages/Work/LoadVideosProjects.js"
+    }
+}

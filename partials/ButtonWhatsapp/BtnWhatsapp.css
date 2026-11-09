@@ -1,0 +1,67 @@
+#BtnWhatsapp {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 10;
+  background: rgba(var(--color-bg-rgb), 0.7);
+  width: 1px; /* Ancho inicial */
+  height: 1px; /* Altura inicial */
+  cursor: pointer;
+  transition:
+    width 1s,
+    height 1s;
+  z-index: 5;
+}
+
+#BtnWhatsapp.expanded {
+  width: 50px; /* Ancho al hacer scroll */
+  height: 50px; /* Altura al hacer scroll */
+  border: 1px solid var(--color-text);
+}
+
+#BtnWhatsapp a {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-48%, -52%);
+  text-decoration: none; /* Si deseas quitar el subrayado */
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.5s; /* Transición suave para la opacidad */
+}
+
+#BtnWhatsapp.expanded a {
+  opacity: 1; /* Mostrar el icono cuando se expande el contenedor */
+}
+
+#BtnWhatsapp a svg {
+  fill: var(--color-text);
+  height: 40px;
+  width: 40px;
+}
+
+#BtnWhatsapp:hover {
+  background: var(--color-text);
+  transition: background 0.6s; /* Solo transición para el color de fondo */
+}
+
+#BtnWhatsapp:hover a svg {
+  fill: var(--color-bg);
+}
+
+@media (max-width: 768px) {
+  #BtnWhatsapp {
+    z-index: 5;
+    right: 15px;
+    bottom: 10px;
+  }
+
+  #BtnWhatsapp.expanded {
+    width: 40px; /* Ancho al hacer scroll */
+    height: 40px; /* Altura al hacer scroll */
+  }
+
+  #BtnWhatsapp a svg {
+    height: 30px;
+    width: 30px;
+  }
+}

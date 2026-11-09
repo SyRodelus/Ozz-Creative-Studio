@@ -1,0 +1,55 @@
+{
+  "xero": {
+    "src": "../pages/Work/Xero Minded/Xero Minded Logo Animation.mp4",
+    "mobileSrc": "../pages/Work/Xero Minded/Xero Minded Logo Animation Mobile.mp4",
+    "title": "Xero Minded — Animación de Logo",
+    "description": "Animación de logo para Xero Minded. Ejercicio de identidad en motion graphics.",
+    "keywords": [
+      "animación de logo",
+      "motion graphics",
+      "identidad de marca",
+      "Xero Minded"
+    ],
+    "duration": "PT0M18S"
+  },
+  "drift": {
+    "src": "../pages/Work/Drift Royalty/Drift Royalty.mp4",
+    "mobileSrc": "../pages/Work/Drift Royalty/Drift Royalty Mobile.mp4",
+    "title": "Drift Royalty — Teaser de Marca",
+    "description": "Teaser audiovisual para Drift Royalty con enfoque en ritmo y lujo urbano.",
+    "keywords": ["teaser", "video de marca", "Drift Royalty"],
+    "duration": "PT0M22S"
+  },
+  "mango": {
+    "src": "../pages/Work/Mango/Mango.mp4",
+    "mobileSrc": "../pages/Work/Mango/Mango Mobile.mp4",
+    "title": "MANGO — Spot de Identidad",
+    "description": "Pieza corta de identidad visual para MANGO con acentos tipográficos.",
+    "keywords": ["moda", "identidad", "MANGO"],
+    "duration": "PT0M15S"
+  },
+  "lylo": {
+    "src": "../pages/Work/Lylo Mousse/Lylo Mousse.mp4",
+    "mobileSrc": "../pages/Work/Lylo Mousse/Lylo Mousse Mobile.mp4",
+    "title": "Lylo Mousse — Identidad Dulce y Lúdica",
+    "description": "Visual corto para Lylo Mousse destacando la propuesta saludable y divertida.",
+    "keywords": ["repostería", "branding", "divertido", "saludable"],
+    "duration": "PT0M19S"
+  },
+  "casa": {
+    "src": "../pages/Work/La Casa Roja/La_Casa_Roja.mp4",
+    "mobileSrc": "../pages/Work/La Casa Roja/La_Casa_Roja_Mobile.mp4",
+    "title": "La Casa Roja — Identidad Visual Auténtica",
+    "description": "Identidad visual estratégica para La Casa Roja, un hostal con esencia única y presencia digital renovada.",
+    "keywords": ["hostel", "branding", "hoteleria", "santiago"],
+    "duration": "PT0M19S"
+  },
+  "pileta": {
+    "src": "../pages/Work/La Pileta/La Pileta.mp4",
+    "mobileSrc": "../pages/Work/La Pileta/La Pileta Mobile.mp4",
+    "title": "La Pileta — Identidad Sensual y Sofisticada",
+    "description": "Identidad visual completa para La Pileta, un sauna que combina bienestar, intimidad y experiencia sensorial moderna.",
+    "keywords": ["sauna", "branding", "bienestar", "sensual", "santiago"],
+    "duration": "PT0M19S"
+  }
+}

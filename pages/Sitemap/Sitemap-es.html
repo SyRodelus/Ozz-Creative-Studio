@@ -1,0 +1,57 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Sitemap/Sitemap.css"
+/>
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Sitemap/CustomSelect.css"
+/>
+
+<section id="sitemap" class="sm-section" aria-labelledby="sm-title">
+  <div class="sm-container">
+    <h2 id="sm-title" class="sm-title">Mapa del sitio</h2>
+    <p class="sm-desc">
+      Lista generada desde <code>/sitemap.xml</code> con fecha de última
+      modificación.
+    </p>
+
+    <div
+      class="sm-toolbar"
+      role="region"
+      aria-label="Filtros del mapa del sitio"
+    >
+      <input
+        id="sm-search"
+        class="sm-search"
+        type="search"
+        placeholder="Filtrar por URL…"
+        aria-label="Buscar URL"
+      />
+      <select id="sm-group" class="sm-select" aria-label="Agrupar">
+        <option value="none">Sin agrupar</option>
+        <option value="prefix">Agrupar por primer segmento</option>
+      </select>
+
+      <!-- Select custom -->
+      <div class="sm-select-wrapper">
+        <div class="sm-select-display" tabindex="0">Sin agrupar</div>
+        <ul class="sm-select-options">
+          <li data-value="none">Sin agrupar</li>
+          <li data-value="prefix">Agrupar por primer segmento</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="sm-list" class="sm-list" role="list" aria-live="polite"></div>
+
+    <noscript>
+      <p class="sm-desc">
+        Activa JavaScript para ver el mapa del sitio formateado o abre
+        <a href="/sitemap.xml">/sitemap.xml</a>.
+      </p>
+    </noscript>
+  </div>
+</section>
+
+<script src="<?php echo $base_url; ?>/pages/Sitemap/Sitemap-es.js"></script>
+<script src="<?php echo $base_url; ?>/pages/Sitemap/CustomSelect.js"></script>

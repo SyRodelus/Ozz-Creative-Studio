@@ -1,0 +1,266 @@
+/* ===========================
+   HERO PRINCIPAL
+=========================== */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* ===========================
+   IMAGEN
+=========================== */
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* ===========================
+   CONTENIDO
+=========================== */
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: fit-content;
+
+  padding-left: clamp(20px, 6vw, 80px);
+  padding-right: 20px;
+}
+
+/* ===========================
+   MARCA SUPERIOR
+=========================== */
+
+.hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.hero-brand-icon {
+  position: relative;
+  bottom: -5px;
+  width: clamp(1.5rem, 2vw + 1rem, 2rem);
+  height: clamp(1.5rem, 2vw + 1rem, 2rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+  /* Aquí irá el SVG de la llama */
+}
+
+.hero-brand-icon svg path {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: var(--color-orange);
+}
+
+.hero-brand-text {
+  font-family: var(--font-paragraph);
+  font-size: var(--font-size-paragraph);
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: 0.3px;
+}
+
+/* ===========================
+   TITULO
+=========================== */
+
+.hero-title {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--font-size-title-hero);
+  line-height: 0.92;
+}
+
+.titlefont {
+  font-family: var(--font-paragraph);
+}
+
+.hero-title .ChangeFontText {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.95;
+  transition: font-family 0.3s ease-in-out; /* Mantenemos tu transición aquí */
+}
+
+.hero-title span {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.95;
+}
+
+/* ===========================
+   DESCRIPCIÓN
+=========================== */
+
+.hero-description {
+  margin: 35px 0;
+  font-family: var(--font-paragraph-light);
+  font-size: var(--font-size-paragraph-hero);
+  max-width: 600px;
+  color: var(--color-text);
+  line-height: var(--lh-paragraph);
+}
+
+.hero-description strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ===========================
+   BOTÓN CTA
+=========================== */
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: fit-content;
+
+  padding: 16px 28px;
+
+  background: rgba(var(--color-bg-rgb), 0.7);
+  color: var(--color-text);
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--font-size-paragraph);
+
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.1) !important;
+  color: #ffffff;
+}
+
+.cta-button svg {
+  fill: var(--color-orange);
+  height: clamp(16px, 5vw, 28px);
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+/* efecto hover */
+.cta-button:hover svg {
+  transform: translate(12px);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 1024px) {
+  .hero {
+    height: 100svh;
+    max-height: 650px;
+  }
+
+  .hero-content {
+    max-width: 90svw;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.8rem, 8vw, 4.5rem);
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    margin: 28px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    align-items: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+
+  .hero-brand {
+    margin-bottom: 20px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.4rem, 9vw, 3.8rem);
+    line-height: 0.95;
+  }
+
+  .hero-description {
+    max-width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 24px 0;
+  }
+
+  .cta-button {
+    padding: 15px 24px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 10vw, 3rem);
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .hero-brand-text {
+    font-size: 0.85rem;
+  }
+
+  .cta-button {
+    width: fit-content;
+    padding: 14px 22px;
+  }
+}

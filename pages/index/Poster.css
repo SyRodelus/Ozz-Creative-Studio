@@ -1,0 +1,140 @@
+/* =========================================================
+   POSTER UI — estilos compartidos (Proyectos, Servicios,
+   Especialidades). Lenguaje visual tipo póster editorial:
+   tipografía condensada en mayúsculas, barra de etiquetas
+   superior y títulos gigantes.
+========================================================= */
+
+:root {
+  --font-display: "Bebas Neue", "Roboto_Condensed-Bold", "Arial Narrow",
+    sans-serif;
+
+  --ozz-pad: clamp(16px, 2.2vw, 30px); /* margen lateral de sección */
+  --ozz-gutter: clamp(12px, 2.4vw, 36px); /* separación entre columnas */
+  --ozz-line: rgba(var(--color-text-rgb), 0.22); /* líneas divisorias */
+  --ozz-line-soft: rgba(var(--color-text-rgb), 0.07);
+  --ozz-muted: rgba(var(--color-text-rgb), 0.6);
+  --ozz-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------- Etiqueta tipo póster ---------- */
+
+.ozz-label {
+  font-family: var(--font-display);
+  font-size: clamp(0.95rem, 0.62rem + 0.7vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+/* ---------- Cabecera de sección ---------- */
+
+.ozz-head {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--ozz-gutter);
+  row-gap: clamp(22px, 3vw, 44px);
+  padding: clamp(64px, 9vw, 140px) var(--ozz-pad) clamp(28px, 4vw, 56px);
+  color: var(--color-text);
+}
+
+.ozz-head__bar {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 14px;
+  border-top: 1px solid var(--ozz-line);
+}
+
+.ozz-head__bar span:nth-child(2) {
+  text-align: center;
+}
+
+.ozz-head__title {
+  /* --chars (desde PHP) = letras del título: los títulos largos se
+     reducen para no invadir la columna del párrafo */
+  --fit: calc(54vw / (var(--chars, 9) * 0.42));
+
+  grid-column: 1 / span 7;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(3.25rem, min(14.5vw, var(--fit)), 15rem);
+  font-weight: 400;
+  line-height: 0.86;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+}
+
+.ozz-head__aside {
+  grid-column: 8 / -1;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding-bottom: 0.6em;
+}
+
+.ozz-head__intro {
+  margin: 0;
+  max-width: 42ch;
+  font-family: var(--font-paragraph-light);
+  font-size: clamp(1rem, 0.82rem + 0.55vw, 1.35rem);
+  line-height: 1.45;
+  color: var(--color-text);
+}
+
+/* ---------- Enlace subrayado con flecha ---------- */
+
+.ozz-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  padding-bottom: 0.3em;
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.ozz-link svg {
+  width: 0.95em;
+  height: 0.95em;
+  fill: var(--color-orange);
+  transition: transform 0.45s var(--ozz-ease);
+}
+
+.ozz-link:hover svg,
+.ozz-link:focus-visible svg {
+  transform: translateX(6px) rotate(-45deg);
+}
+
+.ozz-link:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 4px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 899px) {
+  .ozz-head__title,
+  .ozz-head__aside {
+    grid-column: 1 / -1;
+  }
+
+  .ozz-head__title {
+    --fit: calc(88vw / (var(--chars, 9) * 0.42));
+  }
+
+  .ozz-head__aside {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  /* En móvil la barra muestra solo los extremos para no amontonar */
+  .ozz-head__bar span:nth-child(2) {
+    display: none;
+  }
+}

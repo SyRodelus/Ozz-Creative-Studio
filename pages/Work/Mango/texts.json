@@ -1,0 +1,58 @@
+{
+    "mango.01_p": {
+        "es": "Ejecutamos una poderosa estrategia de marketing BTL y digital para Mango, entregando activaciones de marca impactantes, campañas en redes sociales y recursos visuales coherentes que aumentaron el engagement, el alcance y la consistencia de la marca en todos los canales.",
+        "en": "We executed a powerful BTL marketing and digital strategy for Mango, delivering impactful brand activations, social campaigns, and cohesive visual assets boosting engagement, reach, and brand consistency across all channels."
+    },
+    "mango.02_project-title": {
+        "es": "Información del Proyecto",
+        "en": "Project Information"
+    },
+    "mango.03_h2": {
+        "es": "DESAFÍO",
+        "en": "CHALLENGE"
+    },
+    "mango.04_p": {
+        "es": "Mango necesitaba amplificar su presencia de marca y conectar con su audiencia más allá del retail tradicional. El desafío era diseñar activaciones de marketing BTL y campañas digitales que generaran expectación, fortalecieran la lealtad a la marca y ofrecieran resultados medibles en un mercado de moda competitivo.",
+        "en": "Mango needed to amplify its brand presence and connect with its audience beyond traditional retail. The challenge was to design BTL marketing activations and digital campaigns that would create buzz, strengthen brand loyalty, and deliver measurable results in a competitive fashion market."
+    },
+    "mango.05_h2": {
+        "es": "TRANSFORMACIÓN",
+        "en": "TRANSFORMATION"
+    },
+    "mango.06_p": {
+        "es": "Ejecutamos una estrategia completa de marketing BTL y un plan de difusión digital, desde activaciones en terreno hasta campañas en línea atractivas. Nuestro equipo desarrolló recursos visuales impactantes, creó estrategias de contenido y aseguró una integración fluida entre canales offline y online.",
+        "en": "We executed a complete BTL marketing strategy and digital diffusion plan from on the ground activations to engaging online campaigns. Our team developed impactful visual assets, crafted content strategies, and ensured seamless integration across offline and online channels."
+    },
+    "mango.07_h2": {
+        "es": "HISTORIA",
+        "en": "STORY"
+    },
+    "mango.08_p": {
+        "es": "Aunque los productos de Mango ya eran apreciados, su marketing necesitaba crear experiencias memorables y compartibles que se tradujeran en un mayor compromiso de los clientes. Dimos vida a la marca mediante activaciones inmersivas, visuales de campaña llamativos y narrativas en redes sociales que resonaron con audiencias conscientes de la moda. Cada elemento trabajó en conjunto para ampliar el alcance y la relevancia de Mango en un mercado saturado.",
+        "en": "While Mango’s products were already loved, their marketing needed to create memorable, shareable experiences that translated into deeper customer engagement. We brought the brand to life through immersive activations, striking campaign visuals, and social media storytelling that resonated with fashion conscious audiences. Every element worked together to extend Mango’s reach and relevance in a crowded marketplace."
+    },
+    "mango.09_h2": {
+        "es": "IMPACTO",
+        "en": "IMPACT"
+    },
+    "mango.10_p_html": {
+        "es": "<span class=\"bullet\">•</span> Aumento de la visibilidad de la marca y el engagement de la audiencia a través de campañas multicanal.",
+        "en": "<span class=\"bullet\">•</span> Boosted brand visibility and audience engagement through multi-channel campaigns."
+    },
+    "mango.11_p_html": {
+        "es": "<span class=\"bullet\">•</span> Experiencias memorables que fortalecieron la lealtad del cliente.",
+        "en": "<span class=\"bullet\">•</span> Delivered memorable experiences that strengthened customer loyalty."
+    },
+    "mango.12_p_html": {
+        "es": "<span class=\"bullet\">•</span> Presencia de marca coherente en eventos físicos, plataformas sociales y medios digitales.",
+        "en": "<span class=\"bullet\">•</span> Ensured a cohesive brand presence across physical events, social platforms, and digital media."
+    },
+    "mango.13_p_html": {
+        "es": "<span class=\"bullet\">•</span> Posicionamiento de Mango como una marca de moda innovadora, lista para liderar tanto en tienda como en línea.",
+        "en": "<span class=\"bullet\">•</span> Positioned Mango as a forward-thinking fashion brand ready to lead both in-store and online."
+    },
+    "mango.14_script_src": {
+        "es": "{BASE_URL}/pages/Work/LoadVideosProjects-es.js",
+        "en": "{BASE_URL}/pages/Work/LoadVideosProjects.js"
+    }
+}

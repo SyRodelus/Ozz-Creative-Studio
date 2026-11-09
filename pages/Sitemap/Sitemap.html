@@ -1,0 +1,52 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Sitemap/Sitemap.css"
+/>
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Sitemap/CustomSelect.css"
+/>
+
+<section id="sitemap" class="sm-section" aria-labelledby="sm-title">
+  <div class="sm-container">
+    <h2 id="sm-title" class="sm-title">Sitemap</h2>
+    <p class="sm-desc">
+      List generated from <code>/sitemap.xml</code> with last modification date.
+    </p>
+
+    <div class="sm-toolbar" role="region" aria-label="Sitemap filters">
+      <input
+        id="sm-search"
+        class="sm-search"
+        type="search"
+        placeholder="Filter by URL…"
+        aria-label="Search URL"
+      />
+      <select id="sm-group" class="sm-select" aria-label="Group">
+        <option value="none">No grouping</option>
+        <option value="prefix">Group by first segment</option>
+      </select>
+
+      <!-- Custom select -->
+      <div class="sm-select-wrapper">
+        <div class="sm-select-display" tabindex="0">No grouping</div>
+        <ul class="sm-select-options">
+          <li data-value="none">No grouping</li>
+          <li data-value="prefix">Group by first segment</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="sm-list" class="sm-list" role="list" aria-live="polite"></div>
+
+    <noscript>
+      <p class="sm-desc">
+        Enable JavaScript to view the formatted sitemap or open
+        <a href="/sitemap.xml">/sitemap.xml</a>.
+      </p>
+    </noscript>
+  </div>
+</section>
+
+<script src="<?php echo $base_url; ?>/pages/Sitemap/Sitemap.js"></script>
+<script src="<?php echo $base_url; ?>/pages/Sitemap/CustomSelect.js"></script>

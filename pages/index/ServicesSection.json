@@ -1,0 +1,85 @@
+{
+  "services": {
+    "branding": {
+      "image": "pages/Work/La%20Pileta/Mobile/3-mobile.webp",
+      "link": "/services/branding.html",
+      "label": { "en": "Branding", "es": "Branding" },
+      "seo": {
+        "en": { "title": "Branding Services" },
+        "es": { "title": "Servicios de Branding" }
+      }
+    },
+    "web": {
+      "image": "pages/Work/Lylo%20Mousse/Mobile/9-mobile.webp",
+      "link": "/services/web.html",
+      "label": {
+        "en": "Web Design & Development",
+        "es": "Diseño y Desarrollo Web"
+      },
+      "seo": {
+        "en": { "title": "Web Design & Development" },
+        "es": { "title": "Diseño y Desarrollo Web" }
+      }
+    },
+    "creative-direction": {
+      "image": "pages/Work/Lylo%20Mousse/Mobile/4-mobile.webp",
+      "link": "/services/creative-direction.html",
+      "label": {
+        "en": "Creative Direction",
+        "es": "Dirección Creativa"
+      },
+      "seo": {
+        "en": { "title": "Creative Direction" },
+        "es": { "title": "Dirección Creativa" }
+      }
+    },
+    "social-media": {
+      "image": "pages/Work/Xero%20Minded/Mobile/5-mobile.webp",
+      "link": "/services/social-media.html",
+      "label": {
+        "en": "Social Media Management",
+        "es": "Gestión de Redes Sociales"
+      },
+      "seo": {
+        "en": { "title": "Social Media Management" },
+        "es": { "title": "Gestión de Redes Sociales" }
+      }
+    },
+    "content-production": {
+      "image": "pages/Work/Mango/Mobile/5-mobile.webp",
+      "link": "/services/content-production.html",
+      "label": {
+        "en": "Content Production",
+        "es": "Producción de Contenido"
+      },
+      "seo": {
+        "en": { "title": "Content Production" },
+        "es": { "title": "Producción de Contenido" }
+      }
+    },
+    "brand-consulting": {
+      "image": "pages/Work/La%20Casa%20Roja/Mobile/1-mobile.webp",
+      "link": "/services/brand-consulting.html",
+      "label": {
+        "en": "Brand Consulting & Audit",
+        "es": "Consultoría y Auditoría de Marca"
+      },
+      "seo": {
+        "en": { "title": "Brand Consulting & Audit" },
+        "es": { "title": "Consultoría y Auditoría de Marca" }
+      }
+    },
+    "packaging": {
+      "image": "pages/Work/Lylo%20Mousse/Mobile/5-mobile.webp",
+      "link": "/services/packaging.html",
+      "label": {
+        "en": "Packaging",
+        "es": "Packaging"
+      },
+      "seo": {
+        "en": { "title": "Packaging Design" },
+        "es": { "title": "Diseño de Packaging" }
+      }
+    }
+  }
+}

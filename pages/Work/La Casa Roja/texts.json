@@ -1,0 +1,58 @@
+{
+    "casa.01_p": {
+        "es": "Desarrollamos una identidad visual clara, estratégica y auténtica para La Casa Roja, un hostal en Santiago con alto potencial pero con una débil presencia digital. A través de un branding renovado, comunicación definida y contenido profesional, posicionamos la marca de forma sólida y atractiva, lista para crecer y escalar.",
+        "en": "We developed a clear, strategic, and authentic visual identity for La Casa Roja, a hostel in Santiago with high potential but a weak digital presence. Through renewed branding, defined communication, and professional content, we positioned the brand in a solid and attractive way, ready to grow and scale."
+    },
+    "casa.02_project-title": {
+        "es": "Información del Proyecto",
+        "en": "Project Information"
+    },
+    "casa.03_h2": {
+        "es": "DESAFÍO",
+        "en": "CHALLENGE"
+    },
+    "casa.04_p": {
+        "es": "La Casa Roja ofrecía una gran experiencia y un espacio atractivo, pero su presencia digital era inconsistente: materiales incoherentes, comunicación poco clara y sin una estrategia definida. El desafío era construir una identidad visual sólida y una narrativa que reflejara la esencia del hostal y conectara con los viajeros en un mercado altamente competitivo.",
+        "en": "La Casa Roja offered a great experience and an appealing space, but its digital presence was inconsistent: incoherent materials, unclear communication, and no defined strategy. The challenge was to build a strong visual identity and a narrative that reflected the essence of the hostel and connected with travelers in a highly competitive market."
+    },
+    "casa.05_h2": {
+        "es": "TRANSFORMACIÓN",
+        "en": "TRANSFORMATION"
+    },
+    "casa.06_p": {
+        "es": "Creamos un sistema de marca completo: logo, identidad visual, estrategia de comunicación, manual de marca y contenido visual profesional. Desarrollamos imágenes, piezas gráficas y lineamientos que permiten una comunicación consistente en redes sociales, plataformas de reservas y materiales promocionales.",
+        "en": "We created a complete brand system: logo, visual identity, communication strategy, brand manual, and professional visual content. We developed images, graphic pieces, and guidelines that enable consistent communication across social media, booking platforms, and promotional materials."
+    },
+    "casa.07_h2": {
+        "es": "HISTORIA",
+        "en": "STORY"
+    },
+    "casa.08_p": {
+        "es": "Aunque La Casa Roja era conocida por su ambiente único, su identidad no comunicaba esa personalidad. Analizamos su audiencia, estilo de hospitalidad y valores fundamentales, creando una estética cálida, moderna y accesible. A través de fotografía profesional, un sistema visual claro y una estrategia de comunicación definida, moldeamos una marca coherente que representa genuinamente la experiencia del hostal.",
+        "en": "Although La Casa Roja was known for its unique atmosphere, its identity didn't communicate that personality. We analyzed its audience, style of hospitality, and core values, creating a warm, modern, and accessible aesthetic. Through professional photography, a clear visual system, and a defined communication strategy, we shaped a coherent brand that genuinely represents the hostel experience."
+    },
+    "casa.09_h2": {
+        "es": "IMPACTO",
+        "en": "IMPACT"
+    },
+    "casa.10_p_html": {
+        "es": "<span class=\"bullet\">•</span> Una presencia digital coherente y profesional en todas las plataformas.",
+        "en": "<span class=\"bullet\">•</span> A coherent and professional digital presence across all platforms."
+    },
+    "casa.11_p_html": {
+        "es": "<span class=\"bullet\">•</span> Comunicación de marca más clara, facilitando interacciones y reservas.",
+        "en": "<span class=\"bullet\">•</span> Clearer brand communication, making interactions and bookings easier."
+    },
+    "casa.12_p_html": {
+        "es": "<span class=\"bullet\">•</span> Contenido visual que refleja la esencia del hostal y atrae nuevos huéspedes.",
+        "en": "<span class=\"bullet\">•</span> Visual content that reflects the essence of the hostel and attracts new guests."
+    },
+    "casa.13_p_html": {
+        "es": "<span class=\"bullet\">•</span> Una identidad sólida que prepara a La Casa Roja para crecimiento futuro y colaboraciones.",
+        "en": "<span class=\"bullet\">•</span> A solid identity that prepares La Casa Roja for future growth and collaborations."
+    },
+    "casa.14_script_src": {
+        "es": "{BASE_URL}/pages/Work/LoadVideosProjects-es.js",
+        "en": "{BASE_URL}/pages/Work/LoadVideosProjects.js"
+    }
+}

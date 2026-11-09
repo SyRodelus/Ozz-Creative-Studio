@@ -1,0 +1,70 @@
+{
+  "_section": {
+    "number": { "es": "(03)", "en": "(03)" },
+    "label": { "es": "Especialidades", "en": "Expertise" },
+    "kicker": { "es": "Sectores que atendemos", "en": "Industries we serve" },
+    "title": { "es": "Especialidades", "en": "Expertise" },
+    "intro": {
+      "es": "Conocemos los ciclos comerciales y el lenguaje de cada sector, lo que nos permite construir soluciones efectivas desde el primer día.",
+      "en": "We understand the sales cycles and language of each industry, which allows us to build effective solutions from day one."
+    },
+    "count": { "es": "sectores", "en": "industries" },
+    "itemLabel": { "es": "Especialidad", "en": "Expertise" },
+    "studio": { "es": "Ozz", "en": "Ozz" },
+    "more": { "es": "Ver más", "en": "Learn more" }
+  },
+
+  "items": [
+    {
+      "slug": "ProfessionalServices",
+      "title": { "es": "Servicios profesionales", "en": "Professional services" },
+      "menuDescription": {
+        "es": "Firmas de abogados, consultoras y despachos profesionales.",
+        "en": "Law firms, consultancies and professional practices."
+      },
+      "description": {
+        "es": "Desarrollamos la presencia digital de firmas de abogados, consultoras y despachos que requieren proyectar autoridad, generar confianza y convertir visitas en clientes.",
+        "en": "We develop the digital presence of law firms, consultancies and practices that need to project authority, build trust and turn visitors into clients."
+      },
+      "list": {
+        "es": ["Sitio web institucional", "Agendamiento y contacto", "Contenido de autoridad", "Marca personal y corporativa"],
+        "en": ["Corporate website", "Scheduling & contact", "Thought-leadership content", "Personal & corporate branding"]
+      },
+      "image": null
+    },
+    {
+      "slug": "PropTech",
+      "title": { "es": "PropTech", "en": "PropTech" },
+      "menuDescription": {
+        "es": "Tecnología inmobiliaria: plataformas y lanzamientos de proyectos.",
+        "en": "Real estate technology: platforms and project launches."
+      },
+      "description": {
+        "es": "Tecnología aplicada al sector inmobiliario: creamos plataformas y experiencias digitales para inmobiliarias, constructoras y empresas proptech, desde portales de propiedades hasta lanzamientos de proyectos.",
+        "en": "Technology applied to real estate: we create digital platforms and experiences for agencies, developers and proptech companies, from property portals to project launches."
+      },
+      "list": {
+        "es": ["Portales de propiedades", "Recorridos virtuales", "Captación de prospectos", "Lanzamiento de proyectos"],
+        "en": ["Property portals", "Virtual tours", "Lead generation", "Project launches"]
+      },
+      "image": null
+    },
+    {
+      "slug": "Events",
+      "title": { "es": "Eventos", "en": "Events" },
+      "menuDescription": {
+        "es": "Identidad, convocatoria y plataformas para eventos.",
+        "en": "Identity, promotion and platforms for events."
+      },
+      "description": {
+        "es": "Diseñamos la identidad, la comunicación y las plataformas digitales de eventos, ferias y experiencias de marca, desde la convocatoria hasta el registro de asistentes.",
+        "en": "We design the identity, communication and digital platforms for events, trade shows and brand experiences, from promotion to attendee registration."
+      },
+      "list": {
+        "es": ["Identidad del evento", "Sitio web y registro", "Campañas de convocatoria", "Contenido y cobertura"],
+        "en": ["Event identity", "Website & registration", "Promotion campaigns", "Content & coverage"]
+      },
+      "image": null
+    }
+  ]
+}

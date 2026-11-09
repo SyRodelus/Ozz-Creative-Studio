@@ -1,0 +1,58 @@
+{
+    "lylo.01_p": {
+        "es": "Desarrollamos una identidad de marca juguetona pero refinada para Lylo Mousse, una pastelería con sede en EE. UU. que ofrece dulces más saludables. Con tipografía amigable, ilustraciones suaves y tonos pastel, el sistema visual transmite calidez, frescura y una presencia de marca memorable y consciente de la salud.",
+        "en": "We developed a playful yet refined brand identity for Lylo Mousse, a U.S.based bakery offering healthier sweets. With friendly typography, soft illustrations, and pastel tones, the visual system conveys warmth, freshness, and a memorable, health conscious brand presence."
+    },
+    "lylo.02_project-title": {
+        "es": "Información del Proyecto",
+        "en": "Project Information"
+    },
+    "lylo.04_h2": {
+        "es": "DESAFÍO",
+        "en": "CHALLENGE"
+    },
+    "lylo.05_p": {
+        "es": "Transformar a Lylo Mousse, una pastelería con sede en EE. UU., en una marca distintiva y divertida que destaque en un mercado de postres saturado, al mismo tiempo que comunique su oferta más saludable y premium.",
+        "en": "Transform Lylo Mousse, a U.S. based bakery, into a distinctive and playful brand that stands out in a saturated dessert market while communicating its healthier, premium offering."
+    },
+    "lylo.06_h2": {
+        "es": "TRANSFORMACIÓN",
+        "en": "TRANSFORMATION"
+    },
+    "lylo.07_p": {
+        "es": "Identidad Visual Integral y Posicionamiento de Marca, incluyendo diseño de logotipo, empaques, sistema de color y recursos digitales para crear una presencia de marca cohesionada, escalable y lista para el mercado.",
+        "en": "Comprehensive Visual Identity & Brand Positioning including logo design, packaging, color system, and digital assets to create a cohesive, scalable, and market-ready brand presence."
+    },
+    "lylo.08_h2": {
+        "es": "HISTORIA",
+        "en": "STORY"
+    },
+    "lylo.09_p": {
+        "es": "Lylo Mousse tenía clientes leales pero carecía de una identidad unificada que reflejara sus valores de diversión, nostalgia e ingredientes de calidad. Nuestro objetivo fue elevar la pastelería más allá de ser “solo otra tienda de dulces” creando una marca memorable y profesional. Desarrollamos un lenguaje visual fresco usando colores pastel, formas redondeadas y un logotipo con mascota, extendiendo el concepto a empaques, plantillas para redes sociales y materiales de marketing. Cada elemento fue diseñado para ser accesible pero refinado, “instagrameable” pero atemporal, convirtiendo el diferenciador de Lylo Mousse—recetas más saludables combinadas con visuales encantadores en una historia de marca convincente y escalable.",
+        "en": "Lylo Mousse had loyal customers but lacked a unified identity to match its values of playfulness, nostalgia, and quality ingredients. Our goal was to elevate the bakery beyond “just another sweet shop” by crafting a memorable, professional brand. We developed a fresh visual language using pastel colors, rounded shapes, and a mascot driven logo, extending the concept across packaging, social media templates, and marketing materials. Every element was designed to be approachable yet refined, Instagrammable yet timeless, turning Lylo Mousse’s differentiator healthier recipes paired with charming visuals into a compelling, scalable brand story."
+    },
+    "lylo.10_h2": {
+        "es": "IMPACTO",
+        "en": "IMPACT"
+    },
+    "lylo.11_p_html": {
+        "es": "<span class=\"bullet\">•</span> Aumento del 28% en la interacción en línea dentro de las tres semanas posteriores al relanzamiento.",
+        "en": "<span class=\"bullet\">•</span> 28% increase in online engagement within three weeks of relaunch."
+    },
+    "lylo.12_p_html": {
+        "es": "<span class=\"bullet\">•</span> Incremento del 17% en compras por impulso impulsadas por el nuevo empaque.",
+        "en": "<span class=\"bullet\">•</span> 17% boost in impulse purchases driven by the new packaging."
+    },
+    "lylo.13_p_html": {
+        "es": "<span class=\"bullet\">•</span> Planes de expansión para el primer local pop-up fuera de la ciudad original.",
+        "en": "<span class=\"bullet\">•</span> Expansion plans for first pop-up location outside the original city."
+    },
+    "lylo.14_p_html": {
+        "es": "<span class=\"bullet\">•</span> Aumento de contenido generado por usuarios (UGC) orgánico, ya que los clientes comenzaron a etiquetar y compartir la marca renovada.",
+        "en": "<span class=\"bullet\">•</span> Surge in organic UGC as customers began tagging and sharing the refreshed brand."
+    },
+    "lylo.15_script_src": {
+        "es": "{BASE_URL}/pages/Work/LoadVideosProjects-es.js",
+        "en": "{BASE_URL}/pages/Work/LoadVideosProjects.js"
+    }
+}

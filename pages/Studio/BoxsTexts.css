@@ -1,0 +1,214 @@
+/* Contenedor general */
+.services {
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding: 20px 30px 80px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 25px 15px 40px;
+  }
+}
+
+/* Título */
+.services__title {
+  position: relative;
+  color: var(--color-text);
+  font-family: var(--font-paragraph);
+  font-size: clamp(
+    36px,
+    6vw,
+    70px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .services__title {
+    padding-bottom: 15px;
+  }
+}
+
+/* Grid principal */
+.services__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: clamp(16px, 3vw, 28px);
+  position: relative;
+  z-index: 3;
+  /* Contención sin cambiar diseño: asegura 100% dentro de .services */
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .services__grid {
+    grid-template-columns: 1fr; /* Imagen queda debajo por orden del DOM */
+  }
+}
+
+/* Cards */
+.services__cards {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); /* evita desbordes */
+  gap: clamp(10px, 1.6vw, 18px);
+  min-width: 0; /* permite encoger dentro de la columna padre */
+  max-height: 80vh;
+}
+
+.service-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: clamp(12px, 2.4vw, 24px);
+  min-height: clamp(92px, 16vw, 150px);
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+  position: relative;
+  isolation: isolate;
+  max-width: 100%; /* no supera el ancho de su track */
+  box-sizing: border-box;
+  overflow-wrap: anywhere; /* evita overflow por palabras largas */
+}
+
+.service-card:hover {
+  background: rgba(var(--color-text-rgb, 255, 255, 255), 0.05);
+  transform: translateY(-2px);
+}
+
+.service-card span {
+  font-family: var(--font-paragraph);
+  font-size: clamp(18px, 2.5vw, 42px);
+  line-height: 1.15;
+}
+
+@media (max-width: 900px) {
+  .service-card span {
+    font-size: clamp(18px, 4vw, 42px);
+    line-height: 1.15;
+  }
+}
+
+/* Imagery */
+.services__imagery {
+  display: flex;
+  height: 100%;
+  min-width: 0; /* evita empujar el grid */
+  max-height: 80vh;
+}
+
+.services__photo {
+  flex: 1;
+  border: 1px solid var(--color-text);
+  min-height: clamp(120px, 22vw, 260px);
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.services__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- Modal ---------- */
+.service-modal {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(var(--color-bg-rgb), 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7; /* alto para estar sobre secciones */
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  box-sizing: border-box;
+  padding: 0; /* importante: ya no hereda padding */
+}
+
+.service-modal.is-open {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.service-modal__dialog {
+  position: relative;
+  width: 100%;
+  max-width: 880px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  z-index: 1;
+  margin: 0 15px; /* margen lateral en responsive */
+  box-sizing: border-box;
+}
+
+/* Botón cerrar */
+.service-modal__close {
+  position: absolute;
+  display: flex;
+  border: none;
+  border-left: 1px solid var(--color-text);
+  border-bottom: 1px solid var(--color-text);
+  background: transparent;
+  right: 0;
+  color: var(--color-text);
+  font-size: 18px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.service-modal__close:hover {
+  background: rgba(var(--color-text-rgb, 255, 255, 255), 0.08);
+}
+
+.service-modal__scroll {
+  grid-column: 2 / 3;
+  padding: 20px clamp(18px, 2.8vw, 28px);
+  overflow: auto;
+}
+
+.service-modal__title {
+  font-family: var(--font-title, sans-serif);
+  font-size: clamp(20px, 2.2vw, 32px);
+  margin: 4px 0 10px;
+}
+
+.service-modal__desc {
+  font-family: var(--font-paragraph, system-ui, sans-serif);
+  font-size: clamp(18px, 1.6vw, 24px);
+  margin: 0 0 14px;
+}
+
+.service-modal__bullets {
+  font-family: var(--font-paragraph, system-ui, sans-serif);
+  font-size: clamp(17px, 1.4vw, 20px);
+  color: rgba(var(--color-text-rgb), 0.95);
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.service-modal[aria-hidden="true"] {
+  display: none;
+}

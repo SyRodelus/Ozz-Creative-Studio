@@ -1,0 +1,118 @@
+/* Ratios disponibles (añade más si quieres) */
+.ar-3-4 {
+  --ar: 3/4;
+}
+.ar-4-5 {
+  --ar: 4/5;
+}
+.ar-2-3 {
+  --ar: 2/3;
+}
+.ar-16-9 {
+  --ar: 16/9;
+}
+.ar-1-1 {
+  --ar: 1/1;
+}
+.ar-5-6 {
+  --ar: 5/6;
+}
+
+/* Masonry SIN huecos con gaps constantes */
+.masonry-2c {
+  position: relative;
+  z-index: 3;
+  --gap: 16px;
+  column-count: 2; /* SIEMPRE 2 columnas (pc y móvil) */
+  column-gap: var(--gap);
+  padding: 50px 30px;
+  background-color: var(--color-bg);
+}
+
+/* Cada tarjeta mantiene su propio alto y un gap vertical constante */
+.tile {
+  display: block;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin: 0 0 var(--gap);
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: var(--ar, 4/3); /* altura por defecto */
+}
+
+/* Video ocupa todo */
+
+.video-background {
+  width: 100%;
+  height: 100%;
+}
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Ratios EXTREMADAMENTE PLANOS (desktop) */
+.ar-3-4 {
+  --ar: 3/2.5;
+}
+.ar-4-5 {
+  --ar: 4/2.5;
+}
+.ar-2-3 {
+  --ar: 2/1.5;
+}
+.ar-5-6 {
+  --ar: 5/3;
+}
+.ar-16-9 {
+  --ar: 16/12;
+}
+.ar-1-1 {
+  --ar: 1/1;
+}
+
+/* Ajustes responsive */
+@media (max-width: 768px) {
+  /* Se restauran los ratios originales */
+  .ar-3-4 {
+    --ar: 1/1;
+  }
+  .ar-4-5 {
+    --ar: 1/1;
+  }
+  .ar-2-3 {
+    --ar: 1/1;
+  }
+  .ar-5-6 {
+    --ar: 1/1;
+  }
+  .ar-16-9 {
+    --ar: 1/1;
+  }
+  .ar-1-1 {
+    --ar: 1/1;
+  }
+
+  .masonry-2c {
+    padding: 30px 15px;
+  }
+}
+
+/* Mismo look en móvil */
+@media (max-width: 480px) {
+  .tile {
+    margin-bottom: 12px;
+  }
+
+  .masonry-2c {
+    position: relative;
+    z-index: 3;
+    --gap: 12px;
+    column-count: 2;
+    column-gap: var(--gap);
+    background-color: var(--color-bg);
+  }
+}

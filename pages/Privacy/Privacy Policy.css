@@ -1,0 +1,94 @@
+/* Reset mínimo */
+* {
+  box-sizing: border-box;
+}
+
+.pp-section {
+  background: var(--color-bg);
+  font-family: var(--font-paragraph);
+  position: relative;
+  color: var(--color-text);
+  width: 100%;
+  padding: 110px 30px 50px 30px;
+  z-index: 3;
+}
+.pp-container {
+  max-width: 100%;
+}
+
+#pp-title {
+  font-family: var(--font-title);
+  position: relative;
+  color: var(--color-text);
+  font-size: clamp(
+    36px,
+    6vw,
+    60px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+
+  padding-bottom: 10px;
+}
+
+.pp-title {
+  font-family: var(--font-title);
+  position: relative;
+  color: var(--color-text);
+  font-size: clamp(
+    36px,
+    6vw,
+    60px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+  padding-top: 30px;
+  line-height: 3.5rem;
+}
+
+.pp-subtitle {
+  position: relative;
+  color: var(--color-text);
+  font-size: clamp(
+    24px,
+    4vw,
+    32px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.pp-desc,
+.pp-bullets {
+  position: relative;
+  color: var(--color-text);
+  font-size: clamp(
+    18px,
+    2.5vw,
+    20px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+  line-height: 1.5lh;
+}
+
+.pp-desc a {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.pp-bullets {
+  padding-left: 30px;
+}
+@media (max-width: 768px) {
+  .pp-section {
+    background: var(--color-bg);
+    position: relative;
+    color: var(--color-text);
+    font-family: var(--font-paragraph);
+    width: 100%;
+    padding: 80px 15px 25px 15px;
+  }
+
+  .pp-bullets {
+    padding-left: 20px;
+  }
+}

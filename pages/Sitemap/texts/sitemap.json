@@ -1,0 +1,50 @@
+{
+    "sitemap.01_sm-title": {
+        "es": "Mapa del sitio",
+        "en": "Sitemap"
+    },
+    "sitemap.02_sm-desc_html": {
+        "es": "Lista generada desde <code>/sitemap.xml</code> con fecha de última modificación.",
+        "en": "List generated from <code>/sitemap.xml</code> with last modification date."
+    },
+    "sitemap.03_sm-toolbar_aria-label": {
+        "es": "Filtros del mapa del sitio",
+        "en": "Sitemap filters"
+    },
+    "sitemap.04_sm-search_placeholder": {
+        "es": "Filtrar por URL…",
+        "en": "Filter by URL…"
+    },
+    "sitemap.05_sm-search_aria-label": {
+        "es": "Buscar URL",
+        "en": "Search URL"
+    },
+    "sitemap.06_sm-select_aria-label": {
+        "es": "Agrupar",
+        "en": "Group"
+    },
+    "sitemap.07_option": {
+        "es": "Sin agrupar",
+        "en": "No grouping"
+    },
+    "sitemap.08_option": {
+        "es": "Agrupar por primer segmento",
+        "en": "Group by first segment"
+    },
+    "sitemap.09_sm-select-display": {
+        "es": "Sin agrupar",
+        "en": "No grouping"
+    },
+    "sitemap.10_li": {
+        "es": "Sin agrupar",
+        "en": "No grouping"
+    },
+    "sitemap.11_li": {
+        "es": "Agrupar por primer segmento",
+        "en": "Group by first segment"
+    },
+    "sitemap.12_sm-desc_html": {
+        "es": "Activa JavaScript para ver el mapa del sitio formateado o abre <a href=\"/sitemap.xml\">/sitemap.xml</a>.",
+        "en": "Enable JavaScript to view the formatted sitemap or open <a href=\"/sitemap.xml\">/sitemap.xml</a>."
+    }
+}

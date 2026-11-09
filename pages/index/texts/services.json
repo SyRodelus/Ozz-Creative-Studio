@@ -1,0 +1,198 @@
+{
+    "_section": {
+        "number": {
+            "es": "(02)",
+            "en": "(02)"
+        },
+        "label": {
+            "es": "Servicios",
+            "en": "Services"
+        },
+        "kicker": {
+            "es": "Lo que hacemos",
+            "en": "What we do"
+        },
+        "count": {
+            "es": "servicios",
+            "en": "services"
+        },
+        "headline": {
+            "es": "Eleve su presencia digital, <em>multiplique sus resultados</em>",
+            "en": "Elevate your digital presence, <em>multiply your results</em>"
+        },
+        "intro": {
+            "es": "Un mejor posicionamiento genera mejores resultados. En Ozz acompañamos a empresas que desean fortalecer su marca de principio a fin: desde la estrategia y la identidad hasta el desarrollo web y las campañas que impulsan sus ventas.",
+            "en": "Better positioning leads to better results. At Ozz we support companies that want to strengthen their brand from start to finish: from strategy and identity to web development and the campaigns that drive their sales."
+        },
+        "cta": {
+            "es": "Solicitar una asesoría",
+            "en": "Request a consultation"
+        },
+        "ctaHref": {
+            "es": "Contact-es.php",
+            "en": "Contact.php"
+        },
+        "title": {
+            "es": "Servicios",
+            "en": "Services"
+        },
+        "photo": {
+            "alt": {
+                "es": "Steven Rodelo, cofundador de Ozz Estudio Creativo",
+                "en": "Steven Rodelo, co-founder of Ozz Creative Studio"
+            },
+            "sources": [
+                {
+                    "src": "pages/Studio/Steven.webp",
+                    "w": 1024,
+                    "h": 1280
+                }
+            ]
+        },
+        "studio": {
+            "es": "Ozz",
+            "en": "Ozz"
+        },
+        "itemLabel": {
+            "es": "Servicio",
+            "en": "Service"
+        },
+        "more": {
+            "es": "Ver servicio",
+            "en": "View service"
+        }
+    },
+    "items": [
+        {
+            "slug": "WebDevelopment",
+            "title": {
+                "es": "Desarrollo web",
+                "en": "Web development"
+            },
+            "menuDescription": {
+                "es": "Sitios y tiendas en línea orientados a ventas y visibilidad.",
+                "en": "Websites and online stores built for sales and visibility."
+            },
+            "description": {
+                "es": "Diseñamos y desarrollamos sitios web y tiendas en línea orientados a incrementar las ventas y la visibilidad de su empresa: plataformas rápidas, optimizadas para buscadores y medibles en cada etapa del proceso comercial.",
+                "en": "We design and develop websites and online stores built to increase your company's sales and visibility: fast platforms, optimized for search engines and measurable at every stage of the sales process."
+            },
+            "tags": {
+                "es": [
+                    "Sitios corporativos",
+                    "Comercio electrónico",
+                    "Posicionamiento SEO",
+                    "Analítica y conversión"
+                ],
+                "en": [
+                    "Corporate websites",
+                    "E-commerce",
+                    "SEO",
+                    "Analytics & conversion"
+                ]
+            },
+            "image": {
+                "alt": {
+                    "es": "Sitio web desarrollado por Ozz para Lylo Mousse",
+                    "en": "Website developed by Ozz for Lylo Mousse"
+                },
+                "sources": [
+                    {
+                        "src": "pages/Work/Lylo Mousse/Mobile/9-mobile.webp",
+                        "w": 1400,
+                        "h": 788
+                    }
+                ]
+            }
+        },
+        {
+            "slug": "Branding",
+            "title": {
+                "es": "Branding",
+                "en": "Branding"
+            },
+            "menuDescription": {
+                "es": "Sistemas de identidad y comunicación visual.",
+                "en": "Identity systems and visual communication."
+            },
+            "description": {
+                "es": "Construimos sistemas de identidad que otorgan coherencia, reconocimiento y valor a su marca en cada punto de contacto, desde la estrategia hasta su aplicación final.",
+                "en": "We build identity systems that give your brand coherence, recognition and value at every touchpoint, from strategy to final application."
+            },
+            "tags": {
+                "es": [
+                    "Estrategia de marca",
+                    "Identidad visual",
+                    "Manual de marca",
+                    "Motion branding"
+                ],
+                "en": [
+                    "Brand strategy",
+                    "Visual identity",
+                    "Brand guidelines",
+                    "Motion branding"
+                ]
+            },
+            "image": {
+                "alt": {
+                    "es": "Sistema de identidad de La Pileta",
+                    "en": "La Pileta identity system"
+                },
+                "sources": [
+                    {
+                        "src": "pages/Work/La Pileta/Mobile/3-mobile.webp",
+                        "w": 1280,
+                        "h": 724
+                    },
+                    {
+                        "src": "pages/Work/La Pileta/Pc/3.webp",
+                        "w": 1909,
+                        "h": 1080
+                    }
+                ]
+            }
+        },
+        {
+            "slug": "Campaigns",
+            "title": {
+                "es": "Campañas de marketing",
+                "en": "Marketing campaigns"
+            },
+            "menuDescription": {
+                "es": "Campañas digitales y BTL con objetivos medibles.",
+                "en": "Digital and BTL campaigns with measurable goals."
+            },
+            "description": {
+                "es": "Planificamos y ejecutamos campañas digitales y BTL con objetivos medibles, orientadas a atraer clientes potenciales, fortalecer el posicionamiento de su marca y maximizar el retorno de su inversión.",
+                "en": "We plan and execute digital and BTL campaigns with measurable goals, designed to attract qualified leads, strengthen your brand positioning and maximize your return on investment."
+            },
+            "tags": {
+                "es": [
+                    "Pauta digital",
+                    "Contenido para redes",
+                    "Activaciones BTL",
+                    "Medición de resultados"
+                ],
+                "en": [
+                    "Paid media",
+                    "Social content",
+                    "BTL activations",
+                    "Performance reporting"
+                ]
+            },
+            "image": {
+                "alt": {
+                    "es": "Campaña de Mango desarrollada por Ozz",
+                    "en": "Mango campaign developed by Ozz"
+                },
+                "sources": [
+                    {
+                        "src": "pages/Work/Mango/Mobile/5-mobile.webp",
+                        "w": 1400,
+                        "h": 787
+                    }
+                ]
+            }
+        }
+    ]
+}

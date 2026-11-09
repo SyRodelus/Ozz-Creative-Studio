@@ -1,0 +1,162 @@
+/* ================= */
+/* SECTION */
+/* ================= */
+
+.services-section {
+  min-height: 75vh;
+  background: var(--color-bg);
+  overflow: visible;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* layout principal */
+.services-inner {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 45vw 1fr;
+  gap: 4rem;
+  align-items: start;
+  width: 100%;
+}
+
+/* ================= */
+/* DESKTOP IMAGE */
+/* ================= */
+
+.service-preview {
+  position: sticky;
+  top: 4rem;
+  width: 100%;
+  border: 1px solid var(--color-text);
+}
+
+.service-preview img {
+  width: 100%;
+  height: auto; /* FIX: removida duplicación */
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  display: block;
+}
+
+.service-preview img.visible {
+  opacity: 1;
+}
+
+/* ================= */
+/* SERVICES LIST */
+/* ================= */
+
+.services-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-paragraph);
+  font-size: clamp(30px, 6vw, 2.8vw);
+  font-weight: 100;
+}
+
+.services-list li {
+  color: var(--color-border);
+  opacity: 0.8;
+  cursor: pointer;
+  transition:
+    color 0.3s ease,
+    opacity 0.3s ease;
+  padding-top: 0.5rem;
+  width: fit-content;
+}
+
+.services-list li.active {
+  font-size: clamp(30px, 6vw, 3.2vw);
+  color: var(--color-text);
+  opacity: 1;
+}
+
+/* ========================= */
+/* MOBILE (STICKY LOGIC REAL) */
+/* ========================= */
+@media (max-width: 768px) {
+  /* ================= */
+  /* SECTION */
+  /* ================= */
+
+  .services-section {
+    height: auto;
+    min-height: auto;
+    padding: 15px;
+    overflow: visible;
+  }
+
+  /* ================= */
+  /* LAYOUT */
+  /* ================= */
+
+  .services-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    width: 100%;
+    height: auto;
+    align-items: start;
+  }
+
+  /* ================= */
+  /* STICKY PREVIEW */
+  /* ================= */
+
+  .service-preview {
+    position: sticky;
+    top: 30px;
+    width: 100%;
+    min-height: 56vw; /* 16:9 real */
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    background: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    align-self: start;
+    z-index: 2;
+  }
+
+  .service-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ================= */
+  /* SERVICES LIST */
+  /* ================= */
+
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .services-list li {
+    padding: 0.25rem 0;
+    margin: 0;
+    opacity: 0.35;
+    transition: opacity 0.2s ease;
+  }
+
+  /* item activo */
+  .services-list li.active {
+    opacity: 1;
+  }
+
+  /* items que pasan detrás del preview */
+  .services-list li.under {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

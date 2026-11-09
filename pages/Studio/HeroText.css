@@ -1,0 +1,190 @@
+:root {
+  --overlap: 1px; /* solape en reposo (elimina la línea) */
+  --shift: 14px; /* separación de las mitades al animar */
+  --skew: 10deg; /* inclinación al separarse */
+  --angle: -25deg; /* ángulo del corte de CADA palabra */
+  --duration: 2s; /* ciclo de animación */
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  height: 100vh;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh;
+  }
+}
+
+/* Contenedor general */
+.sliced-words {
+  color: var(--color-text);
+  font-family: var(--font-paragraph);
+  font-size: clamp(
+    42px,
+    6vw,
+    82px
+  ); /* tamaño fluido: mínimo 36px, máximo 70px */
+  font-weight: 100;
+  line-height: 1.15;
+  text-align: center;
+  display: inline;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  /* Controla el solape en sincronía con la animación de corte */
+  animation: controlOverlap var(--duration) infinite steps(1, end);
+}
+
+/* Cada palabra es un bloque independiente con su propio corte */
+.sliced-words .w {
+  position: relative;
+  display: inline-block;
+  vertical-align: baseline;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* Mantiene el tamaño/flujo del layout pero es invisible */
+.sliced-words .w .measure {
+  visibility: hidden;
+  white-space: nowrap; /* quitar si quieres que una palabra pueda partirse */
+}
+
+/* Capas visibles (no hay texto detrás) */
+.sliced-words .w::before,
+.sliced-words .w::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Mitad “superior” (según el ángulo) de CADA palabra */
+.sliced-words .w::before {
+  /* Doble parada para borde nítido y control por --overlap */
+  -webkit-mask-image: linear-gradient(
+    var(--angle),
+    #000 0%,
+    #000 calc(50% + var(--overlap)),
+    transparent calc(50% + var(--overlap)),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    var(--angle),
+    #000 0%,
+    #000 calc(50% + var(--overlap)),
+    transparent calc(50% + var(--overlap)),
+    transparent 100%
+  );
+  animation: sliceTop var(--duration) infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+/* Mitad “inferior” (según el ángulo) de CADA palabra */
+.sliced-words .w::after {
+  -webkit-mask-image: linear-gradient(
+    var(--angle),
+    transparent 0%,
+    transparent calc(50% - var(--overlap)),
+    #000 calc(50% - var(--overlap)),
+    #000 100%
+  );
+  mask-image: linear-gradient(
+    var(--angle),
+    transparent 0%,
+    transparent calc(50% - var(--overlap)),
+    #000 calc(50% - var(--overlap)),
+    #000 100%
+  );
+  animation: sliceBottom var(--duration) infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+/* Animaciones (en bloque por palabra) */
+@keyframes sliceTop {
+  0%,
+  80%,
+  100% {
+    transform: none;
+  }
+  85% {
+    transform: translateX(calc(var(--shift) * -0.6))
+      skewX(calc(var(--skew) * -0.5));
+  }
+  92% {
+    transform: translateX(calc(var(--shift) * -1)) skewX(calc(var(--skew) * -1));
+  }
+}
+
+@keyframes sliceBottom {
+  0%,
+  80%,
+  100% {
+    transform: none;
+  }
+  85% {
+    transform: translateX(calc(var(--shift) * 0.6)) skewX(var(--skew));
+  }
+  92% {
+    transform: translateX(var(--shift)) skewX(var(--skew));
+  }
+}
+
+/* Control del solape sincronizado con el “split”:
+   - En reposo (0–79% y 93–100%): solape = 1px (no hay línea)
+   - Durante la separación (80–92%): solape = 0px (gap limpio)
+*/
+@keyframes controlOverlap {
+  0%,
+  79% {
+    --overlap: 1px;
+  }
+  80%,
+  92% {
+    --overlap: 0px;
+  }
+  93%,
+  100% {
+    --overlap: 1px;
+  }
+}
+
+/* Respeto a usuarios con reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .sliced-words {
+    animation: none !important; /* desactiva controlOverlap también */
+  }
+  .sliced-words .w::before,
+  .sliced-words .w::after {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--color-bg-rgb), 0.7) 50%,
+    /* un poco oscuro arriba */ var(--color-bg) 100%
+      /* totalmente lleno abajo */
+  );
+}

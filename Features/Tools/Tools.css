@@ -1,0 +1,197 @@
+/* ==========================================================
+   CONTENEDOR
+========================================================== */
+
+#nav-tools-floating {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+
+  z-index: 5;
+}
+
+/* ==========================================================
+   ENLACE DEL IDIOMA
+========================================================== */
+
+#nav-tools-floating .nav-idiom {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  z-index: 2;
+}
+
+/* ==========================================================
+   BOTONES GENERALES
+========================================================== */
+
+#nav-tools-floating .nav-item.language,
+#nav-tools-floating .nav-item.theme {
+  width: 35px;
+  height: 35px;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  overflow: hidden;
+
+  background-color: rgba(var(--color-bg-rgb), 0.7);
+
+  cursor: pointer;
+
+  z-index: 1;
+}
+
+/* ==========================================================
+   BOTÓN DE IDIOMA
+========================================================== */
+
+#nav-tools-floating .nav-item.language {
+  border: 1px solid var(--color-text);
+}
+
+#nav-tools-floating .nav-item.language::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 0;
+
+  background-color: var(--color-text);
+
+  transition: height 0.4s ease;
+
+  z-index: 1;
+}
+
+#nav-tools-floating .nav-item.language:hover::before {
+  height: 100%;
+}
+
+/* Texto del idioma */
+#nav-tools-floating .language-text {
+  font-family: var(--font-paragraph);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  user-select: none;
+  color: var(--color-text);
+  transition: color 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+
+#nav-tools-floating .nav-item.language:hover .language-text {
+  color: var(--color-bg);
+}
+
+/* Estado activo del idioma */
+#nav-tools-floating .nav-item.language.active::before {
+  height: 100%;
+}
+
+#nav-tools-floating .nav-item.language.active .language-text {
+  color: var(--color-text);
+}
+
+/* ==========================================================
+   BOTÓN DE TEMA
+========================================================== */
+
+#nav-tools-floating .nav-item.theme {
+  border: 1px solid var(--color-text);
+  border-top: none;
+}
+
+#nav-tools-floating .nav-item.theme::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 0;
+
+  background-color: var(--color-text);
+
+  transition: height 0.4s ease;
+
+  z-index: 1;
+}
+
+#nav-tools-floating .nav-item.theme:hover::before {
+  height: 100%;
+}
+
+/* ==========================================================
+   ICONOS DEL TEMA
+========================================================== */
+
+#nav-tools-floating .Theme {
+  height: 21px;
+  margin: 0;
+  display: block;
+  z-index: 2;
+}
+
+#nav-tools-floating .Theme.hover-icon {
+  display: none;
+}
+
+#nav-tools-floating .Theme path {
+  fill: var(--color-text);
+  transition: fill 0.3s ease;
+}
+
+#nav-tools-floating .nav-item.theme:hover .Theme.default-icon {
+  display: none;
+}
+
+#nav-tools-floating .nav-item.theme:hover .Theme.hover-icon {
+  display: block;
+}
+
+#nav-tools-floating .nav-item.theme:hover .Theme.hover-icon path,
+#nav-tools-floating .nav-item.theme:hover .Theme.default-icon path {
+  fill: var(--color-bg);
+}
+
+#nav-tools-floating .nav-item.theme svg {
+  display: block;
+  margin: auto;
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+@media (max-width: 1024px) {
+  #nav-tools-floating {
+    top: 25%;
+  }
+
+  #nav-tools-floating .nav-item.language,
+  #nav-tools-floating .nav-item.theme {
+    width: 28px;
+    height: 28px;
+  }
+
+  #nav-tools-floating .language-text {
+    font-size: 12px;
+  }
+
+  #nav-tools-floating .Theme {
+    height: 18px;
+  }
+}

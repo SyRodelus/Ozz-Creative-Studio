@@ -1,0 +1,400 @@
+/* =========================================================
+   FOOTER — estilo póster + animación OZZ
+   Modos (los decide FooterOzz.js):
+   - Cortina (body.ft-curtain): escritorio con altura suficiente
+     y páginas con <main id="main">. El footer queda fijo debajo
+     del contenido y se descubre al hacer scroll.
+   - Normal: móvil, pantallas bajas y páginas antiguas.
+========================================================= */
+
+.ft {
+  --ft-pad: var(--ozz-pad, clamp(16px, 2.2vw, 30px));
+  --ft-line: rgba(var(--color-text-rgb), 0.18);
+
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border-top: 1px solid var(--ft-line);
+}
+
+.ft-inner {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(28px, 4.2vh, 56px);
+  padding: clamp(18px, 2.6vh, 28px) var(--ft-pad) 0;
+}
+
+/* ---------- Barra de etiquetas ---------- */
+
+.ft-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ft-bar span:nth-child(2) {
+  text-align: center;
+}
+
+/* ---------- CTA ---------- */
+
+.ft-cta {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--ozz-gutter, 24px);
+  row-gap: 1.5rem;
+  align-items: end;
+}
+
+.ft-title {
+  grid-column: 1 / span 8;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(3rem, min(7.6vw, 11vh), 9rem);
+  font-weight: 400;
+  line-height: 0.88;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.ft-cta__aside {
+  grid-column: 9 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.ft-intro {
+  margin: 0;
+  max-width: 40ch;
+  font-family: var(--font-paragraph-light);
+  font-size: clamp(0.98rem, 0.85rem + 0.35vw, 1.2rem);
+  line-height: 1.45;
+}
+
+.ft-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.95em 1.4em 0.85em;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid var(--color-text);
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 0.8rem + 0.6vw, 1.4rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.45s var(--ozz-ease);
+}
+
+.ft-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--color-text);
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  transition: transform 0.5s var(--ozz-ease);
+}
+
+.ft-btn:hover,
+.ft-btn:focus-visible {
+  color: var(--color-bg);
+}
+
+.ft-btn:hover::before,
+.ft-btn:focus-visible::before {
+  transform: scaleY(1);
+}
+
+.ft-btn svg {
+  width: 1em;
+  height: 1em;
+  fill: var(--color-orange);
+  transition: transform 0.45s var(--ozz-ease);
+}
+
+.ft-btn:hover svg {
+  transform: translateX(4px) rotate(-45deg);
+}
+
+/* ---------- Canales ---------- */
+
+.ft-channels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--ozz-gutter, 24px);
+}
+
+.ft-channel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "label arrow"
+    "value arrow";
+  row-gap: 0.4rem;
+  padding: clamp(14px, 2vh, 22px) 0;
+  border-top: 1px solid var(--ft-line);
+  border-bottom: 1px solid var(--ft-line);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.ft-channel__label {
+  grid-area: label;
+  color: var(--ozz-muted);
+}
+
+.ft-channel__value {
+  grid-area: value;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-family: var(--font-paragraph-light);
+  font-size: clamp(1.1rem, 0.8rem + 1.1vw, 2rem);
+  line-height: 1.1;
+  transition: transform 0.5s var(--ozz-ease);
+}
+
+.ft-channel__arrow {
+  grid-area: arrow;
+  align-self: center;
+  width: clamp(22px, 2vw, 34px);
+  height: clamp(22px, 2vw, 34px);
+  transition: transform 0.5s var(--ozz-ease);
+}
+
+.ft-channel__arrow svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--color-orange);
+}
+
+.ft-channel:hover .ft-channel__value {
+  transform: translateX(10px);
+}
+
+.ft-channel:hover .ft-channel__arrow {
+  transform: rotate(-45deg);
+}
+
+/* ---------- Columnas ---------- */
+
+.ft-cols {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--ozz-gutter, 24px);
+}
+
+.ft-col__title {
+  margin: 0 0 0.9rem;
+  color: var(--ozz-muted);
+}
+
+.ft-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.ft-col a {
+  position: relative;
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: var(--font-paragraph-light);
+  font-size: clamp(0.95rem, 0.85rem + 0.3vw, 1.15rem);
+  line-height: 1.35;
+  background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
+  transition: background-size 0.45s var(--ozz-ease);
+}
+
+.ft-col a:hover,
+.ft-col a:focus-visible {
+  background-size: 100% 1px;
+}
+
+/* ---------- Legal ---------- */
+
+.ft-legal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding: 14px 0;
+  border-top: 1px solid var(--ft-line);
+  font-family: var(--font-paragraph-light);
+  font-size: 0.9rem;
+  color: var(--ozz-muted);
+}
+
+.ft-legal__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.5rem;
+}
+
+.ft-legal a,
+.ft-top {
+  color: var(--color-text);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.ft-legal a:hover,
+.ft-top:hover {
+  opacity: 1;
+}
+
+.ft-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.ft-top svg {
+  width: 1em;
+  height: 1em;
+  fill: var(--color-orange);
+  transition: transform 0.4s var(--ozz-ease);
+}
+
+.ft-top:hover svg {
+  transform: translateY(-3px);
+}
+
+/* ---------- Animación OZZ ---------- */
+
+.ft-wordmark {
+  --ft-word-size: 18vw; /* FooterOzz.js lo ajusta al ancho real */
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: calc(var(--ft-word-size) * 0.78);
+  padding: 0 var(--ft-pad);
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ft-word {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  font-family: "Hanson-Bold", var(--font-display);
+  font-size: var(--ft-word-size);
+  line-height: 0.74;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.ft-word span {
+  display: block;
+  will-change: transform;
+}
+
+.ft-flame {
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  width: calc(var(--ft-word-size) * 0.62);
+  height: calc(var(--ft-word-size) * 0.62);
+  transform: translateX(-50%);
+  transform-origin: 50% 100%;
+  will-change: transform, opacity;
+}
+
+.ft-flame path {
+  fill: var(--color-orange);
+}
+
+/* Antes de que el JS calcule, mostrar el estado final */
+.ft:not(.ft-ready) .ft-word span {
+  transform: none;
+}
+
+/* ---------- Modo cortina ---------- */
+
+body.ft-curtain #main {
+  position: relative;
+  z-index: 1;
+  background: var(--color-bg);
+  box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.55);
+}
+
+body.ft-curtain .ft {
+  position: sticky;
+  bottom: 0;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 899px) {
+  .ft-title,
+  .ft-cta__aside {
+    grid-column: 1 / -1;
+  }
+
+  .ft-title {
+    font-size: clamp(2.8rem, 13vw, 5rem);
+  }
+
+  .ft-channels {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .ft-channel + .ft-channel {
+    border-top: 0;
+  }
+
+  .ft-cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 2rem;
+  }
+
+  .ft-legal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .ft-bar span:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ft-btn,
+  .ft-btn::before,
+  .ft-channel__value,
+  .ft-channel__arrow,
+  .ft-col a {
+    transition: none;
+  }
+}

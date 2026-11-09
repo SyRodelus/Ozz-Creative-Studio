@@ -1,0 +1,316 @@
+/* pages/index/ValuesSection.css
+   Estilos para ValuesSection (integrado con tooltip flotante y tooltip inline dentro de cada card en móvil)
+   He mantenido tus reglas originales y solo reemplacé/añadí las necesarias para los tooltips.
+*/
+
+/* ---------- Fondo dinámico (toda la página) ---------- */
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--page-bg-image, none);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: var(--page-bg-opacity, 0);
+  transition: opacity 0.3s ease-in-out;
+  z-index: 3; /* ahora está encima del fondo normal, pero debajo del grid */
+  pointer-events: none; /* evita bloquear clics */
+}
+
+/* (Opcional) Cuando hay fondo activo, puedes volver transparente el fondo del grid
+   para que la imagen se vea también detrás del grid.
+   Si no quieres esto, borra este bloque. */
+html.values-bg-active #ValuesSection.grid-container {
+  background-color: transparent;
+}
+
+html.values-bg-active body > :not(#ValuesSection):not(.menu) {
+  pointer-events: none !important;
+}
+
+/* ---------- contenedor grid ---------- */
+.grid-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: stretch;
+  min-height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 10%;
+  box-sizing: border-box;
+  background-color: var(--color-bg);
+  z-index: 4; /* por encima del fondo dinámico */
+}
+
+/* apila en pantallas estrechas */
+@media (max-width: 799px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    min-height: var(--fixed-dvh);
+    margin: 0 0;
+    padding: 0px 0px;
+  }
+
+  .grid-container {
+    align-items: stretch;
+    box-sizing: border-box;
+  }
+}
+
+/* ---------- tarjeta (card) ---------- */
+.card {
+  position: relative;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+.card button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.card .card-title {
+  z-index: 7;
+  display: inline-block;
+  font-family: var(--font-things);
+  font-size: clamp(70px, 10vw, 144px);
+  font-weight: 100;
+  color: var(--color-text);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* aplica fondo de la card cuando el título está en hover (usa :has) */
+.card:has(.card-title:hover) {
+  background-color: var(--color-bg);
+}
+
+/* ---------- Líneas internas tipo "cruz" entre las cards ---------- */
+#ValuesSection {
+  --internal-line-color: var(--color-text);
+  --line-thickness: 1px;
+
+  --vs-pad-top: 100px;
+  --vs-pad-bottom: 100px;
+  --vs-pad-left: 10%;
+  --vs-pad-right: 10%;
+
+  --line-length-factor: 1;
+
+  --vs-inner-height: calc(100% - (var(--vs-pad-top) + var(--vs-pad-bottom)));
+  --vs-inner-width: calc(100% - (var(--vs-pad-left) + var(--vs-pad-right)));
+
+  --line-length-vertical: calc(
+    var(--vs-inner-height) * var(--line-length-factor)
+  );
+  --line-length-horizontal: calc(
+    var(--vs-inner-width) * var(--line-length-factor)
+  );
+
+  position: relative;
+}
+
+/* Línea vertical (entre columnas) */
+#ValuesSection::before {
+  content: "";
+  position: absolute;
+  width: var(--line-thickness);
+  height: var(--line-length-vertical);
+  left: 50%;
+  top: calc((100% - var(--line-length-vertical)) / 2);
+  transform: translateX(-50%);
+  background: var(--internal-line-color);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Línea horizontal (entre filas) */
+#ValuesSection::after {
+  content: "";
+  position: absolute;
+  height: var(--line-thickness);
+  width: var(--line-length-horizontal);
+  top: 50%;
+  left: calc((100% - var(--line-length-horizontal)) / 2);
+  transform: translateY(-50%);
+  background: var(--internal-line-color);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* En móvil permitimos overflow visible en las cards para que el tooltip-inline no se recorte */
+@media (max-width: 799px) {
+  .card {
+    overflow: visible;
+  } /* necesario para que el inline no se recorte */
+
+  .card .card-title {
+    display: flex; /* hace que ocupe toda el área */
+    align-items: center; /* centra vertical */
+    justify-content: center; /* centra horizontal */
+    width: 100%; /* ocupa todo el ancho */
+    height: 100%; /* ocupa todo el alto de la card */
+    text-align: center; /* asegura alineación del texto */
+    white-space: normal; /* permite saltos de línea en móvil */
+  }
+}
+
+/* No mostrar la versión inline en desktop */
+@media (hover: hover) and (pointer: fine) {
+  .vv-tooltip-inline {
+    display: none !important;
+  }
+}
+
+/* ocultar la versión floating en touch devices (refuerzo) */
+@media (hover: none) and (pointer: coarse) {
+  .vv-tooltip {
+    display: none !important;
+  }
+}
+
+/* -------- Responsive: grid en 1 columna -------- */
+@media (max-width: 799px) {
+  #ValuesSection::before,
+  #ValuesSection::after {
+    display: none;
+  }
+
+  #ValuesSection .card {
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+  }
+
+  #ValuesSection .card:not(:first-child) {
+    border-top: var(--line-thickness) solid var(--internal-line-color);
+  }
+
+  #ValuesSection .card:last-child {
+    border-bottom: var(--line-thickness) solid var(--internal-line-color);
+  }
+
+  #ValuesSection .card {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* ---------- Tooltip dinámico (desktop) usando variables CSS para posición ---------- */
+/* .vv-tooltip: flotante que sigue al cursor. El JS actualizará --vv-tooltip-left/--vv-tooltip-top en :root */
+.vv-tooltip {
+  position: fixed;
+  display: flex;
+  /* posición definida por variables CSS (por defecto top/left cerca de (12px,12px)) */
+  left: var(--vv-tooltip-left, 12px);
+  top: var(--vv-tooltip-top, 12px);
+  pointer-events: none;
+  z-index: 5;
+  background: rgba(var(--color-bg-rgb), 0.9);
+  color: var(--color-text);
+  padding: 12px;
+  border: 1px solid var(--color-text);
+  font-size: 16px;
+  font-family: var(--font-paragraph);
+  line-height: 1.2;
+  width: fit-content;
+  min-width: 180px;
+  max-width: 250px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition:
+    opacity 140ms linear,
+    transform 80ms linear;
+  transform-origin: left top;
+  /* pequeña traslación para separar del cursor (controlada por variable también opcional) */
+  transform: translate(
+    var(--vv-tooltip-offset-x, 12px),
+    var(--vv-tooltip-offset-y, 12px)
+  );
+}
+
+/* clase visible controlada por JS (no inline styles) */
+.vv-tooltip.vv-tooltip--visible {
+  opacity: 1;
+}
+
+/* Hide on touch devices (redundante/refuerzo) */
+@media (hover: none) and (pointer: coarse) {
+  .vv-tooltip {
+    display: none !important;
+  }
+}
+
+/* ---------- Tooltip INLINE (móvil) — aparece INSIDE cada .card (sin que JS fije left/top) ----------
+   .vv-tooltip-inline se posiciona con top:100% + translateY para quedar justo debajo del título dentro de la card.
+   El JS solo crea o elimina el nodo; TODO el look & layout lo controla CSS.
+*/
+.vv-tooltip-inline {
+  position: absolute; /* dentro de la .card */
+  top: 65%; /* justo debajo del contenido del card (sin JS) */
+  transform: translateY(12px); /* separación visual */
+  min-width: 160px;
+  max-width: calc(100% - 16px);
+  background: rgba(var(--color-bg-rgb), 0.92);
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  font-size: 14px;
+  font-family: var(--font-paragraph);
+  line-height: 1.25;
+  z-index: 8;
+  pointer-events: auto;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  /* animación entrada */
+  opacity: 1;
+  transition:
+    opacity 180ms ease,
+    transform 120ms ease;
+}
+
+/* texto y boton dentro de la inline */
+.vv-tooltip-inline .vv-text {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+.vv-tooltip-inline .vv-close {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  border-top: none; /* Sin borde superior */
+  border-right: none;
+  font-size: 20px;
+  padding: 5px;
+  line-height: 0.5;
+  cursor: pointer;
+  height: auto;
+  align-self: flex-start;
+}
+
+/* asegurar que .card permita overflow visible en móvil para que la inline no se corte */
+@media (max-width: 799px) {
+  .card {
+    overflow: visible;
+  }
+}
+
+/* inline solo visible en touch (oculta en desktop) */
+@media (hover: hover) and (pointer: fine) {
+  .vv-tooltip-inline {
+    display: none !important;
+  }
+}

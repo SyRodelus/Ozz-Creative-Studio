@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- HOMEPAGE -->
+  <url>
+    <loc>https://ozzcreativestudio.com/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ozzcreativestudio.com/"/>
+  </url>
+
+  <!-- STUDIO -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Studio</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Studio"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Studio-es"/>
+  </url>
+
+  <!-- PROJECTS (listado) -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Projects</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Projects"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Projects-es"/>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Contact</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Contact-es"/>
+  </url>
+
+  <!-- PROJECT: Xero Minded -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Work/Xero_Minded</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Work/Xero_Minded"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Work/Xero_Minded-es"/>
+  </url>
+
+  <!-- PROJECT: Drift Royalty -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Work/Drift_Royalty</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Work/Drift_Royalty"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Work/Drift_Royalty-es"/>
+  </url>
+
+  <!-- PROJECT: Mango -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Work/Mango</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Work/Mango"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Work/Mango-es"/>
+  </url>
+
+  <!-- PROJECT: Lylo Mousse -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Work/Lylo_Mousse</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Work/Lylo_Mousse"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Work/Lylo_Mousse-es"/>
+  </url>
+
+  <!-- PRIVACY POLICY -->
+  <url>
+    <loc>https://ozzcreativestudio.com/Privacy_Policy</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <priority>0.30</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ozzcreativestudio.com/Privacy_Policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ozzcreativestudio.com/Privacy_Policy-es"/>
+  </url>
+
+</urlset>

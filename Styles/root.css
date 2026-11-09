@@ -1,0 +1,53 @@
+:root {
+  /* Fuentes cargadas previamente: “Montserrat-Bold” y “Poppins-Regular” */
+  --font-title: "Montserrat-Bold", sans-serif;
+  --font-Monstserrat-ExtraLight: "Montserrat-ExtraLight";
+  --font-paragraph: "Helvetica";
+  --font-paragraph-light: "Helvetica Light Regular";
+  --font-things: "Things";
+
+  --font-size-title-hero: clamp(3.5rem, 9vw, 7.5rem);
+  --font-size-paragraph-hero: clamp(1.25rem, 2vw + 0.8rem, 1.9rem);
+
+  --font-size-title: clamp(3rem, 6vw, 5.8rem);
+  --font-size-paragraph: clamp(1.1rem, 1.5vw + 1rem, 1.6rem);
+
+  --lh-paragraph: 2.2lh;
+
+  /* Colores principales */
+  --color-bg: #000000;
+  --color-bg-rgb: 0, 0, 0;
+  --color-text-rgb: 255, 255, 255;
+  --color-text: #ffffff; /* texto principal (blanco) */
+  --color-border: #777777; /* línea divisoria y trazo flame (gris medio) */
+  --color-input-bg: #1e1e1eb1; /* fondo de los campos de formulario (gris oscuro) */
+  --color-input-text: #ccccccb1; /* texto de los inputs (gris claro) */
+  --color-placeholder: #050505; /* placeholder de inputs */
+  --color-cta: #1f1f1f;
+  --color-orange: #ff7a00;
+
+  /* Ejemplo de estados o acentos */
+  --color-hover-text: #000000; /* texto en hover sobre fondo blanco */
+  --color-hover-bg: #ffffff; /* fondo en hover sobre texto blanco */
+
+  --fixed-dvh: 100dvh;
+  --cursor: url(arrowheadlight.svg), auto;
+  --cursor-pointer: url("handpointer.png"), pointer;
+  --cursor-select: url("textselect.png"), pointer;
+
+  ::selection {
+    background: var(--color-text);
+    color: var(--color-bg);
+  }
+
+  transition:
+    --color-bg 0.5s ease,
+    --color-text 0.5s ease,
+    --color-border 0.5s ease,
+    --color-input-bg 0.5s ease,
+    --color-input-text 0.5s ease,
+    --color-placeholder 0.5s ease;
+
+  --page-bg-image: none;
+  --page-bg-opacity: 0;
+}

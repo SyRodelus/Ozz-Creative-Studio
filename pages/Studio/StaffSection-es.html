@@ -1,0 +1,92 @@
+<link
+  rel="stylesheet"
+  href="<?php echo $base_url; ?>/pages/Studio/StaffSection.css"
+/>
+<!-- StaffSection.html -->
+<section class="staff-wrap" aria-labelledby="staff-title">
+  <h2 id="staff-title" class="staff-title">
+    Somos <span class="staff-accent">OZZ</span>
+  </h2>
+
+  <div class="staff-grid">
+    <div class="staff-card">
+      <!-- IMAGEN: SIEMPRE ARRIBA (fuera del summary) -->
+      <figure class="staff-media">
+        <img
+          class="staff-img"
+          src="<?php echo $base_url; ?>/pages/Studio/Mateo.webp"
+          alt="Mateo Gonzalez"
+        />
+      </figure>
+
+      <!-- BLOQUE FIJO PARA ESCRITORIO -->
+      <div class="desk-block">
+        <h3 class="staff-name">Mateo Gonzalez</h3>
+        <p class="staff-role">Co-Fundador/<br />Diseñador de Marca</p>
+        <p class="staff-text">
+          Diseñador gráfico, ilustrador y cofundador de OZZ enfocado en
+          construir marcas con identidad, propósito y un fuerte impacto visual.
+          Combina estrategia, arte y diseño para dar vida a ideas memorables.
+        </p>
+      </div>
+
+      <!-- ACORDEÓN SIN JS (DETAILS/SUMMARY) SOLO EN MÓVIL -->
+      <details class="staff-acc">
+        <summary class="staff-summary">
+          <div class="staff-meta">
+            <h3 class="staff-name">Mateo Gonzalez</h3>
+            <p class="staff-role">Co-Fundador/<br />Diseñador de Marca</p>
+          </div>
+          <span class="staff-cross">+</span>
+        </summary>
+        <div class="mob-body">
+          <p>
+            Diseñador gráfico, ilustrador y cofundador de OZZ enfocado en
+            construir marcas con identidad, propósito y un fuerte impacto
+            visual. Combina estrategia, arte y diseño para dar vida a ideas
+            memorables.
+          </p>
+        </div>
+      </details>
+    </div>
+
+    <div class="staff-card">
+      <figure class="staff-media">
+        <img
+          class="staff-img"
+          src="<?php echo $base_url; ?>/pages/Studio/Steven.webp"
+          alt="Steven Rodelo"
+        />
+      </figure>
+
+      <div class="desk-block">
+        <h3 class="staff-name">Steven Rodelo</h3>
+        <p class="staff-role">Co-Fundador/<br />Desarrollador Web</p>
+        <p class="staff-text">
+          Desarrollador web y cofundador de OZZ, especializado en crear sitios
+          web rápidos, funcionales y visualmente impactantes. Enfocado en
+          convertir ideas en experiencias digitales fluidas a través de código
+          limpio y diseño inteligente.
+        </p>
+      </div>
+
+      <details class="staff-acc">
+        <summary class="staff-summary">
+          <div class="staff-meta">
+            <h3 class="staff-name">Steven Rodelo</h3>
+            <p class="staff-role">Co-Fundador/<br />Desarrollador Web</p>
+          </div>
+          <span class="staff-cross">+</span>
+        </summary>
+        <div class="mob-body">
+          <p>
+            Desarrollador web y cofundador de OZZ, especializado en crear sitios
+            web rápidos, funcionales y visualmente impactantes. Enfocado en
+            convertir ideas en experiencias digitales fluidas a través de código
+            limpio y diseño inteligente.
+          </p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
